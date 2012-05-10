@@ -415,19 +415,19 @@ capistrano
 疑问：
 date:Mon.2012.04.16
 
-目标：learn svn book `chapter 2 Basic Usage,how to auto deploy project learn some conf about the `capistrano`,collection some guide about `gitlabhq`
+目标：learn svn book `chapter 2 Basic Usage',how to auto deploy project learn some conf about the `capistrano`,collection some guide about `gitlabhq`
 进度：how to auto deploy project learn some conf about the `capistrano`,collection some guide about `gitlabhq`
 备注：
 疑问：
 date:Tue.2012.04.17
 
-目标：learn svn book `chapter 2 Basic Usage,how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp'
+目标：learn svn book `chapter 2 Basic Usage'how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp'
 进度：add bbs to 'Dreamcamp'
 备注：
 疑问：
 date:Wed.2012.04.18
 
-目标：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage,how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
+目标：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage',how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
 进度：translate the 'engine guide' of rails guide
 备注：
 疑问：
@@ -436,32 +436,80 @@ date:Wed.2012.04.18
   the rails application created by'rails plugin new myengine --full',how to use the 'dummy' app and real app?
 date:Thu.2012.04.19
 
-目标：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage,how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
-进度：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage,how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
+目标：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage',how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
+进度：translate the 'engine guide' of rails guide,learn svn book `chapter 2 Basic Usage',how to auto deploy project learn some conf about the `capistrano`,add bbs to 'Dreamcamp',
 备注：又是周五,哎dreamcamp 的main app 要返厂，对 `rails plugin new myengine --full` 理解有误。
 疑问：
 date:Fri.2012.04.20
 
-目标：learn svn book `chapter 2 Basic Usage,refactory the main application of 'Dreamcamp', '初上手指南' update to 3.1 on git
-进度：learn svn book `chapter 2 Basic Usage,refactory the main application of 'Dreamcamp','初上手指南' update to 3.1 on git
+目标：learn svn book `chapter 2 Basic Usage'git
+进度：learn svn book `chapter 2 Basic Usage',refactory the main application of 'Dreamcamp','初上手指南' update to 3.1 on git
 备注：
 疑问：
 date:Mon.2012.04.23
 
-目标：learn svn book `chapter 2 Basic Usage,verify Issue 1321 for HTC sync
-进度：learn svn book `chapter 2 Basic Usage,verify Issue 1321 for HTC sync
+目标：learn svn book `chapter 2 Basic Usage',verify Issue 1321 for HTC sync
+进度：learn svn book `chapter 2 Basic Usage',verify Issue 1321 for HTC sync
 备注：dreamcamp 放置一下 整理一下思路
 疑问：
 date:Tue.2012.04.24
 
-目标：learn svn book `chapter 2 Basic Usage,waiting for ubuntu 12.04
-进度：learn svn book `chapter 2 Basic Usage,waiting for ubuntu 12.04
+目标：learn svn book `chapter 2 Basic Usage',waiting for ubuntu 12.04
+进度：learn svn book `chapter 2 Basic Usage',waiting for ubuntu 12.04
 备注：
 疑问：
 date:Thu.2012.04.26
 
-目标：update system to 'ubuntu 12.04',learn svn book `chapter 2 Basic Usage
-进度：update system to 'ubuntu 12.04',learn svn book `chapter 2 Basic Usage
-备注：又是周五,today should be fininshed the 'chapter 2'
+目标：update system to 'ubuntu 12.04', learn and try python virtualenv on my blogserver
+进度：update system to 'ubuntu 12.04', learn and try python virtualenv on my blogserver
+备注：又是周五
 疑问：
 date:Fri.2012.04.27
+
+目标：learn svn book `chapter 2 Basic Usage', config something on Ubuntu 12.04
+进度：learn svn book `chapter 2 Basic Usage', config something on Ubuntu 12.04
+备注：today should be fininshed the 'chapter 2'
+疑问：
+date:Sat.2012.04.28
+
+目标：learn svn book `chapter 2 Basic Usage',plan to learn something about nosql,and play the 'Githug'
+进度：play the 'Githug', update the ‘git command demo’ to project manage
+备注：
+疑问：
+date:Wed.2012.05.02
+
+目标：learn svn book `chapter 2 Basic Usage',plan to learn something about nosql,
+进度：learn svn book `chapter 2 Basic Usage'
+备注：
+疑问：
+date:Thu.2012.05.03
+
+目标：learn svn book `chapter 2 Basic Usage',plan to learn something about nosql,
+进度：learn svn book `chapter 2 Basic Usage',plan to learn something about nosql,
+备注：又是周五
+疑问：
+date:Fri.2012.05.04
+
+目标：plan to learn something about nosql,learn svn book `chapter_4-Branching_and_Merging'
+进度：plan to learn something about nosql,learn svn book `chapter_4-Branching_and_Merging'
+备注：
+疑问：
+date:Mon.2012.05.07
+
+目标：plan to learn something about nosql,learn svn book `chapter_4-Branching_and_Merging'
+进度：plan to learn something about nosql,learn svn book `chapter_4-Branching_and_Merging'
+备注：
+疑问：
+date:Tue.2012.05.08
+
+目标：plan to learn something about nosql,begin to 'mongodb' and 'mongoid'
+进度：plan to learn something about nosql,begin to 'mongodb' and 'mongoid'
+备注：
+疑问：
+date:Wed.2012.05.09
+
+目标：plan to learn something about nosql,begin to 'mongodb' and 'mongoid',enjoy the '10-things-you-didnt-know-rails-could-do',prepare to leave 'FD' and 'NanJing'
+进度：plan to learn something about nosql,begin to 'mongodb' and 'mongoid',enjoy the '10-things-you-didnt-know-rails-could-do',prepare to leave 'FD' and 'NanJing'
+备注：prepare to leave 'FD' and 'NanJing'
+疑问：
+date:Thu.2012.05.10

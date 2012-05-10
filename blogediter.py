@@ -49,8 +49,8 @@ while a:
     commands.getstatusoutput(n)
     a=False
 #//update to blog
-    print "update to blog website"
-    commands.getstatusoutput("cp ~/Desktop/jhj-blog/blog ~/Desktop/djcode/blogserver/templates/workblog")
+    #print "update to blog website"
+    #commands.getstatusoutput("cp ~/Desktop/jhj-blog/blog ~/Desktop/djcode/blogserver/templates/workblog")
 
  
 
