@@ -16,7 +16,8 @@ case "$var" in
     echo "update to Ubuntu one folders ..."
     cp ~/Desktop/jhj-blog/blog ~/Ubuntu\ One/jhj-blog 
     echo "update to local blog website"
-    sudo cp ~/Desktop/jhj-blog/blog /var/www/blogserver/templates/workblog;; 
+    #sudo cp ~/Desktop/jhj-blog/blog /var/www/blogserver/templates/workblog;; 
+    echo "update to local blog website is skiped ...";;
 
   "load local db" )
     echo "load local db"
