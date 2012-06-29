@@ -8,12 +8,12 @@ import os
 import pdb
 #today=time.strftime("%Y.%m.%d.%H", time.localtime())
 today=time.strftime("%a.%Y.%m.%d", time.localtime())
-blog_type="\n目标：\n"+"进度：\n"+"备注：\n"+"疑问：\n"+"date:"+today+"\n"
-Fri_blog_type="\n目标：\n"+"进度：\n"+"备注：又是周五\n"+"疑问：\n"+"date:"+today+"\n"
+blog_type="\n目标:\n"+"进度:\n"+"备注:\n"+"疑问:\n"+"date:"+today+"\n"
+Fri_blog_type="\n目标:\n"+"进度:\n"+"备注:又是周五\n"+"疑问:\n"+"date:"+today+"\n"
 tdate="date:"+today+"\n"
 #jhj_str=blog_type.encode(CODEC)
 targetLine = "";
-lineNo = 0;  
+lineNo = 0;
 #now_path=os.getcwd()
 now_path='/home/jhjguxin/Desktop/jhj-blog'
 #now_path="/media/ubuntu/jhj-blog/"
@@ -52,7 +52,7 @@ while a:
     #print "update to blog website"
     #commands.getstatusoutput("cp ~/Desktop/jhj-blog/blog ~/Desktop/djcode/blogserver/templates/workblog")
 
- 
+
 
 
   except IOError, e:
