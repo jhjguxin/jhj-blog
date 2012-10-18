@@ -443,3 +443,183 @@ date:Thu.2012.08.30
 备注:又是周五
 疑问:
 date:Fri.2012.08.31
+
+目标:add some task to capistrano on bbtang.com and BBTangCMS, change form validates on bbtang.com
+进度:add some task to capistrano on bbtang.com and BBTangCMS, change form validates on bbtang.com
+备注:
+疑问:
+date:Mon.2012.09.03
+
+目标:Support for e-mail reconfirmation when it changes. You can benefit from this change by setting Devise.reconfirmable to true and adding an unconfirmed_email column to your Devise models, custom autocomplete plugins css, I18n.l, time_ago_in_words (also alise as distance_of_time_in_words), time_tag and time_ago(from rails-timeago)  [jQuery Timeago](https://github.com/rmm5t/jquery-timeago)
+进度:Support for e-mail reconfirmation when it changes. You can benefit from this change by setting Devise.reconfirmable to true and adding an unconfirmed_email column to your Devise models, custom autocomplete plugins css, I18n.l, time_ago_in_words (also alise as distance_of_time_in_words), time_tag and time_ago(from rails-timeago)  [jQuery Timeago](https://github.com/rmm5t/jquery-timeago)
+备注:
+疑问:
+date:Tue.2012.09.04
+
+目标:I18n.l, time_ago_in_words (also alise as distance_of_time_in_words), time_tag and time_ago(from rails-timeago)  [jQuery Timeago](https://github.com/rmm5t/jquery-timeago), add ajax email check for registration , collecting and learning Tutorials of javascript,
+进度:I18n.l, time_ago_in_words (also alise as distance_of_time_in_words), time_tag and time_ago(from rails-timeago)  [jQuery Timeago](https://github.com/rmm5t/jquery-timeago), add ajax email check for registration, collecting and learning Tutorials of javascript,
+备注:
+疑问:
+date:Wed.2012.09.05
+
+目标:refactory the profile edit page
+进度:refactory the profile edit page
+备注:<%= f.fields_for :babies do |baby| %><% index =baby.object_name.gsub(/[^0-9]+/,'')%><% end %>
+疑问:
+date:Thu.2012.09.06
+
+目标:refactory the profile edit page
+进度:
+备注:又是周五
+疑问:
+date:Fri.2012.09.07
+
+目标:try to fix csrf issue, add autocomplete to blacklist page.
+进度:try to fix csrf issue, add autocomplete to blacklist page.
+备注:
+疑问:
+date:Mon.2012.09.10
+
+目标:try to fix csrf issue, add autocomplete to blacklist page.
+进度:try to fix csrf issue, add autocomplete to blacklist page.
+备注:
+疑问:
+date:Tue.2012.09.11
+
+目标:try to fix session issue, add recommend page
+进度:try to fix session issue, add recommend page
+备注:
+疑问:
+date:Wed.2012.09.12
+
+目标:try to fix session issue, refactory the registration work follow
+进度:try to fix session issue, refactory the registration work follow
+备注:
+疑问:
+date:Thu.2012.09.13
+
+目标:try to fix session issue, create the navigate page on bbtang.com, add expert categroy
+进度:try to fix session issue, create the navigate page on bbtang.com, add expert categroy
+备注:又是周五
+疑问:
+date:Fri.2012.09.14
+
+目标:try to fix session issue, create the navigate page on bbtang.com, add expert_categroy and resume to profile
+进度:try to fix session issue, create the navigate page on bbtang.com, add expert_categroy and resume to profile
+备注:
+疑问:
+date:Sat.2012.09.15
+
+目标:Sharing A Devise User Session Across Subdomains With Rails 3, add message mod
+进度:Sharing A Devise User Session Across Subdomains With Rails 3, add message mod
+备注:
+疑问:
+date:Mon.2012.09.17
+
+目标:add message mod, try to build the notice mod(base on mongo) for bbtang.com
+进度:add message mod, try to build the notice mod(base on mongo) for bbtang.com
+备注:
+疑问:
+date:Tue.2012.09.18
+
+目标:refactory the expert_categroy mod(which init on mongoid with some opt), build the notice mod(base on mongo) for bbtang.com
+进度:refactory the expert_categroy mod(which init on mongoid with some opt), build the notice mod(base on mongo) for bbtang.com
+备注:
+疑问:
+date:Wed.2012.09.19
+
+目标:design the schema of other_recommend, make sign_up from oauth platform can also with recommend checked
+进度:design the schema of other_recommend, make sign_up from oauth platform can also with recommend checked
+备注:
+疑问:
+date:Thu.2012.09.20
+
+目标:user action info summray, creat new session throught ajax request
+进度:user action info summray, creat new session throught ajax request
+备注:又是周五
+疑问:
+date:Fri.2012.09.21
+
+目标:add notify page to bbtang.com, and do something on BBTangCMS
+进度:add notify page to bbtang.com, and do something on BBTangCMS
+备注:
+疑问:
+date:Mon.2012.09.24
+
+目标:add notify page to bbtang.com, pick up the message_box on bbtang.com
+进度:add notify page to bbtang.com, pick up the message_box on bbtang.com
+备注:
+疑问:
+date:Tue.2012.09.25
+
+目标:add quizz mod to BBTangCMS, try to add message_box validates function, sina oauth authorize request merge 'with_offical_account' params
+进度:add quizz mod to BBTangCMS, try to add message_box validates function, sina oauth authorize request merge 'with_offical_account' params
+备注:
+疑问:
+date:Wed.2012.09.26
+
+目标:deploy BBTangCMS, add commit reploy notify, add ajax dailog login form
+进度:deploy BBTangCMS, add commit reploy notify, add ajax dailog login form
+备注:
+疑问:
+date:Thu.2012.09.27
+
+目标:make resque work with askjane and BBTangCMS, add ajax dailog login form
+进度:make resque work with askjane and BBTangCMS, add ajax dailog login form
+备注:又是周五
+疑问:
+date:Fri.2012.09.28
+
+目标:fix bug on BBTangCMS, improve the message_box form
+进度:fix bug on BBTangCMS, improve the message_box form
+备注:
+疑问:
+date:Sat.2012.09.29
+
+目标:try to do some change on oauth#auth_email, make recommend_focuss slider work fine on BBTangCMS
+进度:try to do some change on oauth#auth_email, make recommend_focuss slider work fine on BBTangCMS
+备注:
+疑问:
+date:Mon.2012.10.08
+
+目标:refactory the map page on askjane, check note tag, 草稿功能 on BBTangCMS throught sisyphus
+进度:refactory the map page on askjane, check note tag, 草稿功能 on BBTangCMS throught sisyphus
+备注:
+疑问:
+date:Tue.2012.10.09
+
+目标:ruby 元编程, Separating Authentication and Identity with OmniAuth
+进度:ruby 元编程, Separating Authentication and Identity with OmniAuth
+备注:
+疑问:
+date:Wed.2012.10.10
+
+目标:ruby 元编程, in askjane try to make 'Separating Authentication and Identity with OmniAuth' work online
+进度:ruby 元编程, in askjane try to make 'Separating Authentication and Identity with OmniAuth' work online
+备注:
+疑问:
+date:Thu.2012.10.11
+
+目标:begin to add mail recommend mod, and then try to make recommend mail queues
+进度:begin to add mail recommend mod, and then try to make recommend mail queues
+备注:
+疑问:
+date:Mon.2012.10.15
+
+目标:begin to add mail recommend mod, and then try to make recommend mail queues, update tagcloud
+进度:begin to add mail recommend mod, and then try to make recommend mail queues, update tagcloud
+备注:
+疑问:
+date:Tue.2012.10.16
+
+目标:begin to add mail recommend mod, and then try to make recommend mail queues, update tagcloud, export user in mmbkoo to bbtang
+进度:begin to add mail recommend mod, and then try to make recommend mail queues, update tagcloud, export user in mmbkoo to bbtang
+备注:
+疑问:
+date:Wed.2012.10.17
+
+目标:begin to add mail recommend mod, and then try to make recommend mail queues, export user in mmbkoo to bbtang
+进度:begin to add mail recommend mod, and then try to make recommend mail queues, export user in mmbkoo to bbtang
+备注:
+疑问:
+date:Thu.2012.10.18
