@@ -1,2 +1,139 @@
                               BBTang ShangHai 2012-11-1
 
+目标:add the page for multi association with oauth account, try to add weibo robort ('oauth/status_update') on bbtang.com, import goods tag from mmbk
+进度:add the page for multi association with oauth account, try to add weibo robort ('oauth/status_update') on bbtang.com, import goods tag from mmbk
+备注:
+疑问:
+date:Thu.2012.11.01
+
+目标:fix some bug on bbtang.com and BBTangCMS
+进度:fix some bug on bbtang.com and BBTangCMS
+备注:又是周五
+疑问:
+date:Fri.2012.11.02
+
+目标:send weekly_notify to bbtang.com users through queues, begin to group mod on bbtang.com build the mode association and db schema
+进度:send weekly_notify to bbtang.com users through queues, begin to group mod on bbtang.com
+备注:
+疑问:
+date:Mon.2012.11.05
+
+目标:begin to group mod on bbtang.com build the mode association and db schema, add 'profile_face' validate, and add 'new_designated_no_replay' to notify_helper
+进度:begin to group mod on bbtang.com build the mode association and db schema, add 'profile_face' validate, and add 'new_designated_no_replay' to notify_helper
+备注:
+疑问:
+date:Tue.2012.11.06
+
+目标:improve the reader_darshboard on bbtang.com, begin to group mod on bbtang.com build the mode association and db schema, all kinds of meet and talk
+进度:improve the reader_darshboard on bbtang.com, begin to group mod on bbtang.com build the mode association and db schema, all kinds of meet and talk
+备注:[elasticsearch](http://www.elasticsearch.org/), 垂直搜索, [Nested Query support](https://github.com/karmi/tire/pull/475)
+疑问:
+date:Wed.2012.11.07
+
+目标:update goods tag from mmbk to sync the change on categories tags, make 'weibo_status_update' work with real_time runtime environment on bbtang.com
+进度:update goods tag from mmbk to sync the change on categories tags, make 'weibo_status_update' work with real_time runtime environment on bbtang.com
+备注:
+疑问:
+date:Thu.2012.11.08
+
+目标:collection some doc about association search on elasticsearch, and try to use it on bbtang.com, 垂直搜索, [Nested Query support](https://github.com/karmi/tire/pull/475)
+进度:collection some doc about association search on elasticsearch, and try to use it on bbtang.com, 垂直搜索, [Nested Query support](https://github.com/karmi/tire/pull/475)
+备注:又是周五
+疑问:
+date:Fri.2012.11.09
+
+目标:fix bug on is_new_one?, check the 'clear_event_log' on BBTangCMS, Nested Query support
+进度:fix bug on is_new_one?, check the 'clear_event_log' on BBTangCMS, Nested Query support
+备注:
+疑问:
+date:Mon.2012.11.12
+
+目标:add comment_waills to bbtang.com
+进度:add comment_waills to bbtang.com
+备注:
+疑问:
+date:Tue.2012.11.13
+
+目标:ruby 元编程, check the issue on new_question_notify, add bbtang_keywords to recommend_tags on BBTangCMS, today try to send fist newsletter to all user of bbtang.com
+进度:ruby 元编程, check the issue on new_question_notify, add bbtang_keywords to recommend_tags on BBTangCMS, today try to send fist newsletter to all user of bbtang.com
+备注:
+疑问:
+date:Wed.2012.11.14
+
+目标:improve the comment on expert2 page, try to send fist newsletter to all user of bbtang.com, add third_comment_avatar to comment_walls, small change on comment_walls, the new regist page
+进度:improve the comment on expert2 page, try to send fist newsletter to all user of bbtang.com, add third_comment_avatar to comment_walls, small change on comment_walls, the new regist page
+备注:
+疑问:
+date:Thu.2012.11.15
+
+目标:add a task about send weekly_notify to special, change the template of confirmation email, and improve the expert page on people
+进度:add a task about send weekly_notify to special, change the template of confirmation email, and improve the expert page on people
+备注:又是周五
+疑问:
+date:Fri.2012.11.16
+
+目标:remove the fonts asset from google or use local asset instead, try to add some feature(can cut the pic) to avartar update, fix bug on new question notify, fix the simple_captcha_valid not sucess if load before the regist page
+进度:remove the fonts asset from google or use local asset instead, try to add some feature(can cut the pic) to avartar update, fix bug on new question notify
+备注:
+疑问:
+date:Mon.2012.11.19
+
+目标:try to add some feature(can cut the pic) to avartar update, fix bug on new question notify, fix the simple_captcha_valid not sucess if load before the regist page, do some thing about bad sql, new session ajax session pop
+进度:try to add some feature(can cut the pic) to avartar update, fix bug on new question notify, fix the simple_captcha_valid not sucess if load before the regist page, do some thing about bad sql, new session ajax session pop
+备注:
+疑问:
+date:Tue.2012.11.20
+
+目标:start with oauth_taobao, fix error on notify on bbtang.com
+进度:collection some oauth opentaobao, fix error on notify on bbtang.com
+备注:
+疑问:
+date:Wed.2012.11.21
+
+目标:add oauth_taobao to bbtang.com, add some question to reader mod, try to add the track the required count of some resources(eg, email, web, visit from other site) on BBTangCMS
+进度:add oauth_taobao to bbtang.com, add some question to reader mod, try to add the track the required count of some resources(eg, email, web, visit from other site) on BBTangCMS
+备注:
+疑问:
+date:Thu.2012.11.22
+
+目标:try to add the track the required count of some resources(eg, email, web, visit from other site) on BBTangCMS, export all knowledges to text files, today must fix the higth cpu useage on 'user_newest_count'
+进度:try to add the track the required count of some resources(eg, email, web, visit from other site) on BBTangCMS, export all knowledges to text files, today must fix the higth cpu useage on 'user_newest_count'
+备注:又是周五
+疑问:
+date:Fri.2012.11.23
+
+目标:try to add some feature(can cut the pic) to avartar update, fix the simple_captcha_valid not sucess if load before the regist page, fix the incorrent count on new_comment_user, add some question to reader mod
+进度:try to add some feature(can cut the pic) to avartar update, fix the simple_captcha_valid not sucess if load before the regist page, fix the incorrent count on new_comment_user, add some question to reader mod
+备注:
+疑问:
+date:Mon.2012.11.26
+
+目标:add some feature(can cut the pic) to avartar update,
+进度:add some feature(can cut the pic) to avartar update,
+备注:
+疑问:
+date:Tue.2012.11.27
+
+目标:add some feature(can cut the pic) to avartar update
+进度:add some feature(can cut the pic) to avartar update
+备注:
+疑问:
+date:Wed.2012.11.28
+
+目标:add some feature(can cut the pic) to avatar update(already can work now), check some bugs on bbtang.com
+进度:add some feature(can cut the pic) to avatar update(already can work now), check some bugs on bbtang.com
+备注:
+疑问:
+date:Thu.2012.11.29
+
+目标:add mongoid paginate to BBTangCMS, improve the crop avatar function, some work on Rails app performance test and improve it's performance, add 'will_paginate_mongoid' to BBTangCMS, new profile's blacklist and share_info on bbtang.com
+进度:add mongoid paginate to BBTangCMS, improve the crop avatar function, some work on Rails app performance test and improve it's performance, add 'will_paginate_mongoid' to BBTangCMS, new profile's blacklist and share_info on bbtang.com
+备注:又是周五
+疑问:
+date:Fri.2012.11.30
+
+目标:add face to note,
+进度:add face to note,
+备注:
+疑问:
+date:Mon.2012.12.03
