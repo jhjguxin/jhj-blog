@@ -132,8 +132,110 @@ date:Thu.2012.11.29
 疑问:
 date:Fri.2012.11.30
 
-目标:add face to note,
-进度:add face to note,
+目标:add face to note, thanks to snova(and apjp), try to solve the browser compatible problem the crop on profile avartar
+进度:add face to note, thanks to snova(and apjp), try to solve the browser compatible problem the crop on profile avartar
 备注:
 疑问:
 date:Mon.2012.12.03
+
+目标:solved the browser compatible problem the crop on profile avartar
+进度:solved the browser compatible problem the crop on profile avartar
+备注:https://gist.github.com/4160890
+疑问:
+date:Tue.2012.12.04
+
+目标:fix some bug on switch with diff tab(or mod) on profile, add query to source_trackers, improve the Performance of obj_filter_drop_down_li
+进度:fix some bug on switch with diff tab(or mod) on profileadd query to source_trackers, improve the Performance of obj_filter_drop_down_li
+备注:
+疑问:
+date:Wed.2012.12.05
+
+目标:fix bugs on source_trackers about will_paginate_mongoid's `total_entries`, helper `mongoid_obj_filter_drop_down_li` can use `opt` params, add extra_query.rake to BBTangCMS
+进度:fix bugs on source_trackers about will_paginate_mongoid's `total_entries`, helper `mongoid_obj_filter_drop_down_li` can use `opt` params, add extra_query.rake to BBTangCMS
+备注:will_paginate use `total_entries` to get count of all query result
+疑问:
+date:Thu.2012.12.06
+
+目标:fix AdminSetting's Rails.cache not work, try to cache the permit list of users on BBTangCMS, add task 'mmbk_ad_for_mmbk_users_no_sign_in'
+进度:fix AdminSetting's Rails.cache not work on, try to cache the permit list of users on BBTangCMS, add task 'mmbk_ad_for_mmbk_users_no_sign_in'
+备注:又是周五
+疑问:
+date:Fri.2012.12.07
+
+目标:fix AdminSetting's Rails.cache not work, try to cache the permit list of users on BBTangCMS
+进度:fix AdminSetting's Rails.cache not work, try to cache the permit list of users on BBTangCMS
+备注:
+疑问:
+date:Mon.2012.12.10
+
+目标:some change of profile_info on bbtang.com, improve the cancan authorization on BBTangCMS, cache and BBTangCMS
+进度:some change of profile_info on bbtang.com, improve the cancan authorization on BBTangCMS, cache and BBTangCMS
+备注:
+疑问:
+date:Tue.2012.12.11
+
+目标:improve the cancan authorization on BBTangCMS, cache(helper sweepers) and BBTangCMS
+进度:improve the cancan authorization on BBTangCMS, cache(helper sweepers) and BBTangCMS
+备注:
+疑问:
+date:Wed.2012.12.12
+
+目标:improve the performance of BBTangCMS by cache(helper sweepers), use add_params_to_url to merge params to url or path
+进度:improve the performance of BBTangCMS by cache(helper sweepers), use add_params_to_url to merge params to url or path
+备注:
+疑问:
+date:Thu.2012.12.13
+
+目标:improve the performance of BBTangCMS by cache(helper sweepers), can cache_action action with param, add 'rack-mini-profiler' to monitor the performance, ruby 元编程
+进度:improve the performance of BBTangCMS by cache(helper sweepers), can cache_action action with param, add 'rack-mini-profiler' to monitor the performance, ruby 元编程
+备注:又是周五
+疑问:
+date:Fri.2012.12.14
+
+目标:ruby 元编程
+进度:ruby 元编程
+备注:
+疑问:
+date:Mon.2012.12.17
+
+目标:ruby 元编程, artii(Light-weight ASCII art generator), etag(加速页面载入同时节省资源) and BBTangCMS
+进度:ruby 元编程, artii(Light-weight ASCII art generator), etag(加速页面载入同时节省资源) and BBTangCMS
+备注:ASCII Arty is a little ASCII art generator that uses the Figlet library. Just feed it a string and it’ll create a fancy ASCII art image.
+疑问:
+date:Tue.2012.12.18
+
+目标:ruby 元编程, etag(加速页面载入同时节省资源) and BBTangCMS, add user to cache_action's cache_path
+进度:ruby 元编程, etag(加速页面载入同时节省资源) and BBTangCMS, add user to cache_action's cache_path
+备注:
+疑问:
+date:Wed.2012.12.19
+
+目标:ruby 元编程, create_oauth_user_without_email new user signin and signup page on bbtang.com
+进度:ruby 元编程, create_oauth_user_without_email new user signin and signup page on bbtang.com
+备注:
+疑问:
+date:Thu.2012.12.20
+
+目标:bbtang.com clear code not need, create_oauth_user_without_email new user signin and signup page on bbtang.com
+进度:bbtang.com clear code not need, create_oauth_user_without_email new user signin and signup page on bbtang.com
+备注:又是周五
+疑问:
+date:Fri.2012.12.21
+
+目标:add 'expires_in' option to cache_action to expires fragment, [What is Grape?](https://github.com/intridea/grape), clear and make bbtang.com run, try to make bbtcms work, after bbtang.com refactory
+进度:add 'expires_in' option to cache_action to expires fragment, [What is Grape?](https://github.com/intridea/grape), clear and make bbtang.com run, try to make bbtcms work, after bbtang.com refactory
+备注:
+疑问:
+date:Mon.2012.12.24
+
+目标:try to make bbtcms work, after bbtang.com refactory, ruby 元编程
+进度:try to make bbtcms work, after bbtang.com refactory, ruby 元编程
+备注:
+疑问:
+date:Tue.2012.12.25
+
+目标:ruby 元编程, 讨论117show and bbtang.com 用户处理方案
+进度:ruby 元编程, 讨论117show and bbtang.com 用户处理方案
+备注:
+疑问:
+date:Wed.2012.12.26
