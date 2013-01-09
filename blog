@@ -239,3 +239,57 @@ date:Tue.2012.12.25
 备注:
 疑问:
 date:Wed.2012.12.26
+
+目标:navigator sina user with bbtang.com and 117show.com, some discuss about the schema of as_thing (关于竖表和 mongo 的动态field)
+进度:navigator sina user with bbtang.com and 117show.com, some discuss about the schema of as_thing (关于竖表和 mongo 的动态field)
+备注:
+疑问:
+date:Thu.2012.12.27
+
+目标:weixin robort for fumutang, check navigator sina user with bbtang.com and 117show.com
+进度:weixin robort for fumutang, check navigator sina user with bbtang.com and 117show.com
+备注:又是周五
+疑问:
+date:Fri.2012.12.28
+
+目标:ruby 元编程, weixin robort for fumutang, prepare to photo timeline on bbtang.com
+进度:ruby 元编程, weixin robort for fumutang, prepare to photo timeline on bbtang.com
+备注:
+疑问:
+date:Sat.2012.12.29
+
+目标:决定 从 bbtang.com 对 117show 会话的新建销毁和持久机制, 基于js 控制html(head 里面)标签的属性(token)来实现全局调用(会话) token, beginner for coffeescript
+进度:决定 从 bbtang.com 对 117show 会话的新建销毁和持久机制, 基于js 控制html(head 里面)标签的属性(token)来实现全局调用(会话) token, beginner for coffeescript
+备注:又是周五 http://coffeescript.org/, http://coffeescriptcookbook.com/
+疑问:
+date:Fri.2013.01.04
+
+目标:ruby 元编程, a wrapper for 'babytime' api on bbtang.com, 基于js 控制html(head 里面)标签的属性(token)来实现全局调用(会话) token
+进度:ruby 元编程, a wrapper for 'babytime' api on bbtang.com, 基于js 控制html(head 里面)标签的属性(token)来实现全局调用(会话) token
+备注:
+疑问:
+date:Sat.2013.01.05
+
+目标:ruby 元编程, [Atomic Increment in Rails](http://jhjguxin.sinaapp.com/2013/01/06/atomic-increment-in-rails/)
+进度:ruby 元编程, [Atomic Increment in Rails](http://jhjguxin.sinaapp.com/2013/01/06/atomic-increment-in-rails/)
+备注:
+疑问:
+date:Sun.2013.01.06
+
+目标:ruby 元编程, add timeline to show baby's pic
+进度:ruby 元编程, add timeline to show baby's pic
+备注:
+疑问:
+date:Mon.2013.01.07
+
+目标:some coffeescript code for babytime api interface, add timeline to show baby's pic
+进度:some coffeescript code for babytime api interface, add timeline to show baby's pic
+备注:
+疑问:
+date:Tue.2013.01.08
+
+目标:deprecated the jquery crossDomain request to babytime get data, add proxy on bbtang.com to request from babytime and then response to browser
+进度:deprecated the jquery crossDomain request to babytime get data, add proxy on bbtang.com to request from babytime and then response to browser
+备注:
+疑问:
+date:Wed.2013.01.09
