@@ -288,8 +288,104 @@ date:Mon.2013.01.07
 疑问:
 date:Tue.2013.01.08
 
-目标:deprecated the jquery crossDomain request to babytime get data, add proxy on bbtang.com to request from babytime and then response to browser
-进度:deprecated the jquery crossDomain request to babytime get data, add proxy on bbtang.com to request from babytime and then response to browser
+目标:deprecated the jquery crossDomain request to babytime get data, all interface complated and can work with 'gzip' encoding on gem package 'babytime', add proxy on bbtang.com to request from babytime and then response to browser
+进度:deprecated the jquery crossDomain request to babytime get data, all interface complated and can work with 'gzip' encoding on gem package 'babytime', add proxy on bbtang.com to request from babytime and then response to browser
 备注:
 疑问:
 date:Wed.2013.01.09
+
+目标:today I must resolved the timeline on bbtang.com(suspend by franics, wait for timeline js)
+进度:today I must resolved the timeline on bbtang.com(suspend by franics, wait for timeline js)
+备注:
+疑问:
+date:Thu.2013.01.10
+
+目标:today I must resolved the timeline on bbtang.com(suspend by franics, wait for timeline js), some doc about the golang
+进度:today I must resolved the timeline on bbtang.com(suspend by franics, wait for timeline js), some doc about the golang
+备注:又是周五
+疑问:
+date:Fri.2013.01.11
+
+目标:pic file upload to babytime(flash and js interface and service bacdkend) for bbtang.com
+进度:pic file upload to babytime(flash and js interface and service bacdkend) for bbtang.com
+备注:timeline on bbtang.com(suspend by franics, wait for timeline js)
+疑问:
+date:Mon.2013.01.14
+
+目标:pic file upload to babytime(flash and js interface and service bacdkend) for bbtang.com(suspend by franics, wait js or flash compatible with ie 8 and older)
+进度:pic file upload to babytime(flash and js interface and service bacdkend) for bbtang.com(suspend by franics, wait js or flash compatible with ie 8 and older)
+备注:
+疑问:
+date:Tue.2013.01.15
+
+目标:resolved the timeline on bbtang.com
+进度:resolved the timeline on bbtang.com
+备注:
+疑问:
+date:Wed.2013.01.16
+
+目标:resolved the timeline on bbtang.com
+进度:resolved the timeline on bbtang.com
+备注:
+疑问:
+date:Thu.2013.01.17
+
+目标:resolved the timeline on bbtang.com, some doc about the golang
+进度:resolved the timeline on bbtang.com, some doc about the golang
+备注:又是周五
+疑问:
+date:Fri.2013.01.18
+
+目标:some doc about the go-tour, add babytime feed page
+进度:some doc about the go-tour, add babytime feed page
+备注:
+疑问:
+date:Mon.2013.01.21
+
+目标:add babytime feed page, add feed comment, pic file upload to babytime
+进度:add babytime feed page, add feed comment, pic file upload to babytime
+备注:
+疑问:
+date:Tue.2013.01.22
+
+目标:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...)
+进度:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...)
+备注:
+疑问:
+date:Wed.2013.01.23
+
+目标:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...), some doc about the go-tour
+进度:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...), some doc about the go-tour
+备注:
+疑问:
+date:Thu.2013.01.24
+
+目标:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...), some doc about the go-tour
+进度:pic file upload to babytime(try to use adobe cs4 edit swf file haha ...), some doc about the go-tour
+备注:又是周五
+疑问:
+date:Fri.2013.01.25
+
+目标:pic file upload to babytime(try to use adobe cs4 edit swf file haha, today should finish it), some doc about the go-tour, some work on qiniu 
+进度:pic file upload to babytime(try to use adobe cs4 edit swf file haha, today should finish it), some doc about the go-tour, some work on qiniu 
+备注:
+疑问:
+date:Mon.2013.01.28
+
+目标:some doc about the go-tour
+进度:some doc about the go-tour
+备注:
+疑问:
+date:Tue.2013.01.29
+
+目标:begin to class [html-css](http://learn.shayhowe.com/)
+进度:begin to class [html-css](http://learn.shayhowe.com/)
+备注:
+疑问:
+date:Wed.2013.01.30
+
+目标:begin to class [html-css](http://learn.shayhowe.com/), prepare to go home yeah
+进度:begin to class [html-css](http://learn.shayhowe.com/), prepare to go home yeah
+备注:又是周五
+疑问:
+date:Fri.2013.02.01
