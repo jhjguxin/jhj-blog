@@ -23,8 +23,104 @@ date:Fri.2013.03.08
 疑问:
 date:Tue.2013.03.11
 
-目标:read and learn the 'gxservice', 完成首页智能推荐相关模块
-进度:read and learn the 'gxservice', 完成首页智能推荐相关模块
+目标:read and learn the 'gxservice', discuss how the 'active_score', 'auto message' define, '智能推荐相关模块', refactory the 'active_score', '智能推荐相关模块'
+进度:read and learn the 'gxservice', discuss how the 'active_score', 'auto message' define, '智能推荐相关模块', refactory the 'active_score', '智能推荐相关模块'
 备注:
 疑问:
 date:Tue.2013.03.12
+
+目标: define the 'active_score', define the logic of '智能推荐相关模块'
+进度: define the 'active_score', define the logic of '智能推荐相关模块'(in processing ..)
+备注:
+疑问:
+date:Thu.2013.03.13
+
+目标: refactory the 'active_score', define the logic of '智能推荐相关模块', define the generate_active_score task
+进度: refactory the 'active_score', define the logic of '智能推荐相关模块'(in processing ..), define the generate_active_score task
+备注:
+疑问:
+date:Thu.2013.03.14
+
+目标:'智能推荐相关模块', define the logic of '智能推荐相关模块' and check does it work fine ? define the generate_commend_user task
+进度:'智能推荐相关模块', define the logic of '智能推荐相关模块' and check does it work fine ? define the generate_commend_user task
+备注:又是周五
+疑问:
+date:Fri.2013.03.15
+
+目标:'智能推荐相关模块', define the logic of '智能推荐相关模块' and check does it work fine ? define the generate_commend_user task
+进度:'智能推荐相关模块', define the logic of '智能推荐相关模块' and check does it work fine ? define the generate_commend_user task
+备注:今天加班 ...
+疑问:
+date:Sun.2013.03.17
+
+目标:test the '智能推荐相关模块', make generate_commend_user task work, config the resque and whenever on gxservice
+进度:test the '智能推荐相关模块', make generate_commend_user task work, config the resque and whenever on gxservice
+备注:
+疑问:
+date:Mon.2013.03.18
+
+目标:test the '智能推荐相关模块', generate the 'report' mod and define  'report' api, build an new env(an user named guanxi, include requirements of rvm ruby rails) on test machine, improve the performance on commend_user mod(add index to commend_user)
+进度:test the '智能推荐相关模块', generate the 'report' mod and define  'report' api, build an new env(an user named guanxi, include requirements of rvm ruby rails) on test machine, improve the performance on commend_user mod(add index to commend_user)
+备注:mongo add index 也可以提升性能 `index({ user_id: 1, commend_user_id: 1}, { unique: true, name: "user_id_commend_user_id"})`
+疑问:
+date:Tue.2013.03.19
+
+目标:test the '智能推荐相关模块', make generate_commend_user task work, generate the 'report' mod and define  'report' api
+进度:test the '智能推荐相关模块', make generate_commend_user task work, generate the 'report' mod and define  'report' api
+备注:
+疑问:
+date:Wed.2013.03.20
+
+目标:test the '智能推荐相关模块', make whenever work on root env (so bad idea), begin to guanxi_cms
+进度:test the '智能推荐相关模块', make whenever work on root env (so bad idea), begin to guanxi_cms
+备注:
+疑问:
+date:Thu.2013.03.21
+
+目标:test the '智能推荐相关模块', bulit an git service for guanxi_cms, begin to guanxi_cms, config commend mod on production env
+进度:test the '智能推荐相关模块', bulit an git service for guanxi_cms, begin to guanxi_cms, config commend mod on production env
+备注:又是周五
+疑问:
+date:Fri.2013.03.22
+
+目标:begin to guanxi_cms(today should have some page been saw), review and collection summarize guanxi 3.1
+进度:begin to guanxi_cms(today should have some page been saw), review and collection summarize guanxi 3.1
+备注:
+疑问:
+date:Mon.2013.03.25
+
+目标:begin to guanxi_cms report mod(hung), review and collection summarize guanxi 3.1
+进度:begin to guanxi_cms report mod(hung), review and collection summarize guanxi 3.1
+备注:
+疑问:
+date:Tue.2013.03.26
+
+目标:begin to guanxi_cms (gx_message gx_user), review gxservice RegisterController and ShareController
+进度:begin to guanxi_cms (gx_message gx_user), review gxservice RegisterController and "ShareController#mobilecheck"
+备注:
+疑问:
+date:Wed.2013.03.27
+
+目标:improve the performance of the generate_commend_user task, review gxservice RegisterController and "ShareController#mobilecheck"
+进度:improve the performance of the generate_commend_user task, begin to guanxi_cms (gx_message gx_user), review gxservice RegisterController and "ShareController#mobilecheck"
+备注:
+疑问:
+date:Thu.2013.03.28
+
+目标:improve the performance of the generate_commend_user task, begin to guanxi_cms (gx_message gx_user)
+进度:improve the performance of the generate_commend_user task, begin to guanxi_cms (gx_message gx_user)
+备注:又是周五
+疑问:
+date:Fri.2013.03.29
+
+目标:deploy guanxi_cms on dev_env, improve the passenger_config on guanxi
+进度:deploy guanxi_cms on dev_env, improve the passenger_config on guanxi
+备注:
+疑问:
+date:Sat.2013.03.30
+
+目标:try to discuss the how deploy guanxi service, begin to guanxi_cms (gx_message gx_user)
+进度:try to discuss the how deploy guanxi service, begin to guanxi_cms (gx_message gx_user)
+备注:
+疑问:
+date:Mon.2013.04.01
