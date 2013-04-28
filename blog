@@ -119,8 +119,130 @@ date:Fri.2013.03.29
 疑问:
 date:Sat.2013.03.30
 
-目标:try to discuss the how deploy guanxi service, begin to guanxi_cms (gx_message gx_user)
-进度:try to discuss the how deploy guanxi service, begin to guanxi_cms (gx_message gx_user)
+目标:try to discuss the how deploy guanxi service, begin to guanxi_cms (add auth mod)
+进度:try to discuss the how deploy guanxi service, begin to guanxi_cms (add auth mod)
 备注:
 疑问:
 date:Mon.2013.04.01
+
+目标:guanxi_cms add 'gx_message', improve the performance of generate commend_user(include improve the performance of match score)
+进度:guanxi_cms add 'gx_message', improve the performance of generate commend_user(include improve the performance of match score)
+备注:
+疑问:
+date:Tue.2013.04.02
+
+目标:guanxi_cms add 'gx_message', (mongodb)mongoid 主从库配置
+进度:guanxi_cms add 'gx_message', (mongodb)mongoid 主从库配置
+备注:
+疑问:
+date:Wed.2013.04.03
+
+目标:improve "GxRelationScore#get_relation_users"
+进度:improve "GxRelationScore#get_relation_users"
+备注:
+疑问:
+date:Sun.2013.04.07
+
+目标:improve "GxRelationScore#get_relation_users", migrate 'GxRelationScore#userids' to 'GxRelationScore#user_ids'
+进度:improve "GxRelationScore#get_relation_users", migrate 'GxRelationScore#userids' to 'GxRelationScore#user_ids'
+备注:
+疑问:
+date:Mon.2013.04.08
+
+目标:improve "GxRelationScore#get_relation_users", migrate 'GxRelationScore#userids' to 'GxRelationScore#user_ids', deploy an new server for guanxi
+进度:improve "GxRelationScore#get_relation_users", migrate 'GxRelationScore#userids' to 'GxRelationScore#user_ids', deploy an new server for guanxi
+备注:[Adding `counter_cache` to Mongoid?](https://github.com/mongoid/mongoid/issues/2215) Milestone: 3.1.0
+疑问:
+date:Tue.2013.04.09
+
+目标:fix no plan user pick on generate_commend_user task, update 'CommendCalculate#nearby_users' dubug 默认查看附近 2 小时内有 upload location  的用户, deploy an new pushserver
+进度:fix no plan user pick on generate_commend_user task,update 'CommendCalculate#nearby_users' dubug 默认查看附近 2 小时内有 upload location  的用户, deploy an new pushserver
+备注:
+疑问:
+date:Wed.2013.04.10
+
+目标:guanxi_cms add 'gx_message', what is socket, how deploy an socket server
+进度:guanxi_cms add 'gx_message', what is socket, how deploy an socket server
+备注:
+疑问:
+date:Thu.2013.04.11
+
+目标:fix `commend_user.comment_user_id` not present, do work on gx_push(apnpush for apple app version update)
+进度:fix `commend_user.comment_user_id` not present, do work on gx_push(apnpush for apple app version update)
+备注:又是周五
+疑问:
+date:Fri.2013.04.12
+
+目标:migrate gxservice assets file to `/data` folder, change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request, do work on gx_push(apnpush for apple app version update)
+进度:migrate gxservice assets file to `/data` folder, change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request, do work on gx_push(apnpush for apple app version update)
+备注:
+疑问:
+date:Mon.2013.04.15
+
+目标: change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request, do work on gx_push(apnpush for apple app version update)
+进度: change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request, do work on gx_push(apnpush for apple app version update)
+备注:
+疑问:
+date:Tue.2013.04.16
+
+目标:关系表情发送接口(新旧版本兼容),
+进度:关系表情发送接口(新旧版本兼容),
+备注:
+疑问:
+date:Wed.2013.04.17
+
+目标:关系表情发送接口(新旧版本兼容) and make it work, 性格测试接口
+进度:关系表情发送接口(新旧版本兼容) and make it work, 性格测试接口
+备注:
+疑问:
+date:Thu.2013.04.18
+
+目标:limit 'concurrent_thread_count' when slice users_plan_update and set timeout_seconds for thread_group on update_commend_users, update content on 'MessageContentable#message_compatible_handler'
+, 性格测试接口
+进度:limit 'concurrent_thread_count' when slice users_plan_update and set timeout_seconds for thread_group on update_commend_users, update content on 'MessageContentable#message_compatible_handler'
+, 性格测试接口
+备注:又是周五
+疑问:
+date:Fri.2013.04.19
+
+目标:check why so slowly when query relation_socore, define the logic and rules for personality test
+进度:check why so slowly when query relation_socore, define the logic and rules for personality test
+备注:
+疑问:
+date:Mon.2013.04.22
+
+目标:improve "GxRelationScore#get_relation_users" on gxservice, deploy gxservice 3.1.3(main job is ensure personality_test,关系表情发送接口(新旧版本兼容), change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request work fine)
+进度:improve "GxRelationScore#get_relation_users" on gxservice, deploy gxservice 3.1.3(main job is ensure personality_test,关系表情发送接口(新旧版本兼容), change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request work fine)
+备注:
+疑问:
+date:Tue.2013.04.23
+
+目标:improve "GxRelationScore#get_relation_users" on gxservice, deploy gxservice 3.1.3(main job is ensure personality_test,关系表情发送接口(新旧版本兼容), change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request work fine)
+进度:improve "GxRelationScore#get_relation_users" on gxservice, deploy gxservice 3.1.3(main job is ensure personality_test,关系表情发送接口(新旧版本兼容), change the 'GxUser#Career' as an categroy and migrate old data to new and compatible with old-style request work fine)
+备注:http://docs.mongodb.org/manual/faq/indexes/#can-i-use-a-multi-key-index-to-support-a-query-for-a-whole-array
+疑问:
+date:Wed.2013.04.24
+
+目标:fix some bug on gxservice, fix error on task update commend_user
+进度:fix some bug on gxservice, fix error on task update commend_user
+备注:
+疑问:
+date:Thu.2013.04.25
+
+目标:fix some bug on gxservice, check problom on message_compatible_handler and distinguish diffrent device, fix error on task update commend_user
+进度:fix some bug on gxservice, check problom on message_compatible_handler and distinguish diffrent device, fix error on task update commend_user
+备注:又是周五
+疑问:
+date:Fri.2013.04.26
+
+目标:fix some bug on gxservice,add gx_userlocation_caches to cache lastest user.gps refactory 'commend#index' nearby_users
+进度:fix some bug on gxservice,add gx_userlocation_caches to cache lastest user.gps refactory 'commend#index' nearby_users
+备注:https://gist.github.com/jhjguxin/5471666
+疑问:
+date:Sat.2013.04.27
+
+目标:check and fix 智能推荐和个人资料页面分数不一致, some work for report on guanxi_cms
+进度:check and fix 智能推荐和个人资料页面分数不一致, some work for report on guanxi_cms
+备注:
+疑问:
+date:Sun.2013.04.28
