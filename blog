@@ -246,3 +246,51 @@ date:Sat.2013.04.27
 备注:
 疑问:
 date:Sun.2013.04.28
+
+目标:performance on entries, sort and entries, desc(asc) and entries, improve the 'MessageContentable#user_session'
+进度:performance on entries, sort and entries, desc(asc) and entries, improve the 'MessageContentable#user_session'
+备注:
+疑问:
+date:Thu.2013.05.02
+
+目标:improve the 'GxRelationScoreable#get_relation_users', improve the 'MessageContentable#user_session', almost finished 'app_version_push' model on guanxi_cms
+进度:improve the 'GxRelationScoreable#get_relation_users', improve the 'MessageContentable#user_session', almost finished 'app_version_push' model on guanxi_cms
+备注:又是周五
+疑问:
+date:Fri.2013.05.03
+
+目标:improve the 'GxRelationScoreable#get_relation_users', some work for report on guanxi_cms
+进度:improve the 'GxRelationScoreable#get_relation_users', some work for report on guanxi_cms
+备注:http://stackoverflow.com/questions/11703716/mongodb-sort-is-extremely-slow-even-on-indexed-fields
+疑问:
+date:Mon.2013.05.06
+
+目标:check and try fix error on 'GxRelationScoreable#get_relation_users', some work for report on guanxi_cms(define the db schema), add rspec test case for user auth mod, report mod
+进度:check and try fix error on 'GxRelationScoreable#get_relation_users', some work for report on guanxi_cms(define the db schema), add rspec test case for user auth mod, report mod
+备注:https://github.com/jhjguxin/mongoid-sequence2
+疑问:
+date:Tue.2013.05.07
+
+目标:some work for report on guanxi_cms(view controller)
+进度:some work for report on guanxi_cms(view controller)
+备注:
+疑问:
+date:Wed.2013.05.08
+
+目标:some work for report on guanxi_cms(view controller)
+进度:some work for report on guanxi_cms(view controller)
+备注:
+疑问:
+date:Thu.2013.05.09
+
+目标:check expection on db server, some work for report on guanxi_cms(view controller)
+进度:check expection on db server, some work for report on guanxi_cms(view controller)
+备注:又是周五
+疑问:
+date:Fri.2013.05.10
+
+目标:some attempt to node.JS, Express, Socket.IO and Redis from [Balloons.IO](https://github.com/gravityonmars/Balloons.IO) and [socket.io-rails](https://github.com/jhchen/socket.io-rails)
+进度:some attempt to node.JS, Express, Socket.IO and Redis from [Balloons.IO](https://github.com/gravityonmars/Balloons.IO) and [socket.io-rails](https://github.com/jhchen/socket.io-rails)
+备注:
+疑问:
+date:Sat.2013.05.11
