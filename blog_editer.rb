@@ -41,12 +41,22 @@ def load_logfile
 end
 
 def format_current_log(file)
+  has_formated = false
   if File.file? file
-    last_line = IO.readlines(file.path)[-1]
-    unless last_line and last_line.strip.end_with?($Today)
-      #file.write(log_format)
-      file.puts(log_format)
+    last_lines = IO.readlines(file.path)[-20..-1]
+    #unless last_line and last_line.strip.end_with?($Today)
+    #  #file.write(log_format)
+    #  file.puts(log_format)
+    #end
+
+    last_lines.each do |line|
+      if line.strip.end_with?($Today)
+        has_formated = true
+        break
+      end
     end
+
+    file.puts(log_format) unless has_formated
 
     file.close
   end
@@ -60,5 +70,6 @@ if __FILE__==$0
   format_current_log(file)
 
   #`gedit #{file.path}`
-  system "gedit #{file.path}"
+  # system "gedit #{file.path}"
+  system "gnome-open #{file.path}"
 end
