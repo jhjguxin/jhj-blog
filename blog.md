@@ -474,18 +474,12 @@ date:Fri.2013.06.28
 
 目标:
 
-- gxservice
-  - 恢复处理Email
-  - 处理现有log形式保存的Email
 - guanxi_cms
   - deploy new environment on aliyun
   - deploy guanxi_cms on new server
 
 进度:
 
-- gxservice
-  - 恢复处理Email
-  - 处理现有log形式保存的Email
 - guanxi_cms
   - deploy new environment on aliyun
   - deploy guanxi_cms on new server
@@ -495,5 +489,468 @@ date:Fri.2013.06.28
 疑问:
 
 date:Mon.2013.07.01
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - deploy new environment on aliyun
+  - deploy guanxi_cms on new server
+- gxserver
+  - deploy new environment on aliyun
+  - run background on new server
+  - deploy gxserver on new server
+
+进度:
+
+- guanxi_cms
+  - deploy new environment on aliyun
+  - deploy guanxi_cms on new server
+- gxserver
+  - deploy new environment on aliyun
+  - run background on new server
+  - deploy gxserver on new server
+
+
+备注:
+
+疑问:
+
+date:Tue.2013.07.02
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - fix erron on 'config.ru'
+  - app_version_pushes support multi versions
+  - app_version support 'user_collection_type'
+- gxservice
+  - rename "GxUserContacts" as "GxUserContact"
+  - clear invalid email format on 'GxUserContact#ContactEmail' feild
+
+进度:
+
+- guanxi_cms
+  - fix erron on 'config.ru'
+  - app_version_pushes support multi versions
+  - app_version support 'user_collection_type'
+- gxservice
+  - rename "GxUserContacts" as "GxUserContact"
+  - clear invalid email format on 'GxUserContact#ContactEmail' feild
+
+
+备注:
+
+疑问:
+
+date:Wed.2013.07.03
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - rename "GxUserContacts" as "GxUserContact"
+  - clear invalid email format on 'GxUserContact#ContactEmail' feild
+  - 恢复处理Email
+  - 处理现有log形式保存的Email
+  - test is gxserver work well on aliyun
+
+进度:
+
+- gxservice
+  - rename "GxUserContacts" as "GxUserContact"
+  - clear invalid email format on 'GxUserContact#ContactEmail' feild
+  - 恢复处理Email
+  - 处理现有log形式保存的Email
+  - test is gxserver work well on aliyun
+
+备注:
+
+疑问:
+
+date:Thu.2013.07.04
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - test is gxserver work well on aliyun
+  - 负载均衡
+- auto deployment
+  - vagrant
+  - play with chef-solo
+
+进度:
+
+- gxservice
+  - test is gxserver work well on aliyun
+  - 负载均衡
+- auto deployment
+  - vagrant(but still have some trouble on 'Setting Up a Multi-VM Environment in Vagrant')
+  - play with chef-solo
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.07.05
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - deploy gxserver with capistrano
+  - test is gxserver work well on aliyun
+  - 负载均衡
+- migrate gxserver from grandcloud to aliyun
+- write an [deamon script for goagent](https://gist.github.com/jhjguxin/5948822)
+
+进度:
+
+- gxservice
+  - deploy gxserver with capistrano
+  - test is gxserver work well on aliyun
+  - 负载均衡
+- migrate gxserver from grandcloud to aliyun
+- write an [deamon script for goagent](https://gist.github.com/jhjguxin/5948822)
+
+备注:
+
+疑问:
+
+date:Mon.2013.07.08
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - 负载均衡
+
+进度:
+
+- gxservice
+  - 负载均衡
+
+备注:
+
+疑问:
+
+date:Tue.2013.07.09
+
+---------------------------------
+
+目标:
+
+- auto deployment
+  - vagrant
+  - play with chef-solo
+- change mongodb server to LAN ip
+
+进度:
+
+- auto deployment
+  - vagrant
+  - play with chef-solo
+- change mongodb server to LAN ip
+
+备注:
+
+疑问:
+
+date:Wed.2013.07.10
+
+---------------------------------
+
+
+目标:
+
+- auto deployment
+  - vagrant
+  - play with chef-solo
+- change mongodb server to LAN ip
+
+进度:
+
+- auto deployment
+  - vagrant
+  - play with chef-solo
+- change mongodb server to LAN ip
+
+备注:
+
+疑问:
+
+date:Wed.2013.07.11
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - add task 'phonebook_commend_push'
+  - and try speedy by 'GC'
+
+进度:
+
+- gxserver
+  - add task 'phonebook_commend_push'
+  - and try speedy by 'GC'
+
+备注:
+
+疑问:
+
+date:Thu.2013.07.12
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
+  - and try speedy by 'GC'
+  - reduce cursors count on mongodb2
+
+进度:
+
+- gxserver
+  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
+  - and try speedy by 'GC'
+  - reduce cursors count on mongodb2
+
+备注:
+
+疑问:
+
+date:Mon.2013.07.15
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
+  - reduce I/O utilization on mongodb2
+  - define model 'user_data_statistic' to collect user relation data
+
+进度:
+
+- gxserver
+  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
+  - reduce I/O utilization on mongodb2
+  - define model 'user_data_statistic' to collect user relation data
+
+备注:
+
+疑问:
+
+date:Tue.2013.07.16
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - why slow on 'criteria.desc(:score).only(*include_fields).where({relation_user_id: userid}).skip(skip_count).limit(page_size).entries'. Why ???????
+  - reduce I/O utilization on mongodb2
+  - define model 'user_data_statistic' to collect user relation data
+
+进度:
+
+- gxserver
+  - why slow on 'criteria.desc(:score).only(*include_fields).where({relation_user_id: userid}).skip(skip_count).limit(page_size).entries'. Why ???????
+  - reduce I/O utilization on mongodb2
+  - define model 'user_data_statistic' to collect user relation data
+
+备注:
+
+疑问:
+
+date:Wed.2013.07.17
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - gxabout, and use data from gx_setting
+  - on 'commend_user' 'quickly_commend_users' will consider user gender
+- guanxi_cms
+  - define gx_setting
+
+进度:
+
+- gxserver
+  - gxabout, and use data from gx_setting
+  - on 'commend_user' 'quickly_commend_users' will consider user gender
+- guanxi_cms
+  - define gx_setting
+
+备注:
+
+疑问:
+
+date:Thu.2013.07.18
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - build the page for gxserver log query
+- deploy an new centos server for gxserver stage and dev environment
+
+进度:
+
+- guanxi_cms
+  - build the page for gxserver log query
+- deploy an new centos server for gxserver stage and dev environment
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.07.19
+
+---------------------------------
+
+目标:
+
+- check why db high disk io, and low memery
+- gxservice
+  - check all db index exists
+
+进度:
+
+- check why db high disk io, and low memery
+- gxservice
+  - check all db index exists
+
+备注:
+
+疑问:
+
+date:Mon.2013.07.22
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - hook 'user_data_statistic' with someone who need it
+- [Low memory consumption with MongoDB](https://gist.github.com/jhjguxin/6060427)
+
+进度:
+
+- gxservice
+  - hook 'user_data_statistic' with someone who need it
+- [Low memory consumption with MongoDB](https://gist.github.com/jhjguxin/6060427)
+
+备注:
+
+疑问:
+
+date:Tue.2013.07.23
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - hook 'user_data_statistic' with someone who need it
+
+进度:
+
+- gxservice
+  - hook 'user_data_statistic' with someone who need it
+
+备注:
+
+疑问:
+
+date:Wed.2013.07.24
+
+---------------------------------
+
+目标:
+
+can acess an special db server within mongodb Replica Sets ?
+
+进度:
+
+can acess an special db server within mongodb Replica Sets ?
+
+备注:
+
+疑问:
+
+date:Thu.2013.07.25
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - 提醒用户更新头像, after user review by cms system
+  - 生日祝福
+
+进度:
+
+- guanxi_cms
+  - 提醒用户更新头像, after user review by cms system
+  - 生日祝福
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.07.26
+
+---------------------------------
+
+目标:
+
+- release an new version for gxservice
+- some index for gx_radarnotifications
+- mongoid consistency option
+
+进度:
+
+- release an new version for gxservice
+- some index for gx_radarnotifications
+- mongoid consistency option
+
+备注:
+
+疑问:
+
+date:Mon.2013.07.29
+
+---------------------------------
+
+目标:
+
+- new dev environment for ampedservice
+- project-manage
+  - some doc for sails
+
+进度:
+
+- new dev environment for ampedservice
+- project-manage
+  - some doc for sails
+
+备注:
+
+疑问:
+
+date:Tue.2013.07.30
 
 ---------------------------------
