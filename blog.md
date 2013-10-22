@@ -1,956 +1,743 @@
-### Guanxi ShangHai 2013-06-04
+### Guanxi ShangHai 2013-09-02
 
 目标:
 
-  - guanxi_cms
-    - check why so slow on database
-    - speed assets precompile by 'turbo-sprockets-rails3'
-    - add `cache_value` to `utility`
-    - cache entries_count to improve the review paginate
+- guanxi_cms
+  - filter user need for push platform
+  - define the logic push method for gx_push_task
+
+进度:
+
+- guanxi_cms
+  - filter user need for push platform
+  - define the logic push method for gx_push_task
+
+备注:
+
+疑问:
+
+date:Mon.2013.09.02
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - push协议整理及测试
+
+进度:
+
+- gxservice
+  - push协议整理及测试
+
+备注:
+
+疑问:
+
+date:Tue.2013.09.03
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - push协议整理及测试
+
+进度:
+
+- gxservice
+  - push协议整理及测试
+
+备注:
+
+疑问:
+
+date:Wed.2013.09.04
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - define push 协议 update_push
+  - push 协议 compatible with old version
+
+进度:
+
+- gxservice
+  - define push 协议 update_push
+  - push 协议 compatible with old version
+
+备注:
+
+疑问:
+
+date:Thu.2013.09.05
+
+---------------------------------
+
+目标:
+
+- gxservice
+  - define push 协议 update_push
+  - push 协议 compatible with old version
+
+进度:
+
+- gxservice
+  - define push 协议 update_push
+  - push 协议 compatible with old version
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.09.06
+
+---------------------------------
+
+目标:
+
+- gx_push_server
+  - fire with gx_push_server
+
+进度:
+
+- gx_push_server
+  - fire with gx_push_server
+
+备注:
+
+疑问:
+
+date:Mon.2013.09.09
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - check what happen on userinfo#get visitor list
+  - 'doactivepush' will push user_message from 'messages_after_last_act'
+  - fix no receiver limit on 'messages_after_last_act'
+  - add task 'migrate_from_message_content'
+  - now do not need handle issue when score on 'commend_users' not mach on 'gx_relation_score'
+  - store_snapshot on GxUserAddressbook will skip if user_id is an invalidate value
+  - `@current_user_id` will use string type
+
+
+进度:
+
+- gxserver
+  - check what happen on userinfo#get visitor list
+  - 'doactivepush' will push user_message from 'messages_after_last_act'
+  - fix no receiver limit on 'messages_after_last_act'
+  - add task 'migrate_from_message_content'
+  - now do not need handle issue when score on 'commend_users' not mach on 'gx_relation_score'
+  - store_snapshot on GxUserAddressbook will skip if user_id is an invalidate value
+  - `@current_user_id` will use string type
+
+备注:
+
+疑问:
+
+date:Tue.2013.09.10
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - refactory task 'migrate_from_message_content', add task 'migrated_user_session_last_msg_id'
+  - 'send_like_userphoto_push' will invoke 'user_photo_been_liked_count' now
+
+进度:
+
+- gxserver
+  - refactory task 'migrate_from_message_content', add task 'migrated_user_session_last_msg_id'
+  - 'send_like_userphoto_push' will invoke 'user_photo_been_liked_count' now
+
+备注:
+
+疑问:
+
+date:Wed.2013.09.11
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - start task 'migrate_from_message_content'
+- guanxi_cms
+  - some page on gx_push_task
+
+进度:
+
+- gxserver
+  - start task 'migrate_from_message_content'
+- guanxi_cms
+  - some page on gx_push_task
+
+备注:
+
+疑问:
+
+date:Thu.2013.09.12
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - continue exec task 'migrate_from_message_content'
+  - migrate handle logic on message_controller work with user_message
+  - support for client version 3.2.0
+
+进度:
+
+- gxserver
+  - continue exec task 'migrate_from_message_content'
+  - migrate handle logic on message_controller work with user_message
+  - support for client version 3.2.0
+
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.09.13
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - try to make user_message and new push library work
+  - gx_push_server
+- gxserver
+  - socket push no note present
+  - fix error on commend_users, and exclude low quality user
+
+进度:
+
+- guanxi_cms
+  - try to make user_message and new push library work
+  - gx_push_server
+- gxserver
+  - socket push no note present
+  - fix error on commend_users, and exclude low quality user
+
+备注:
+
+疑问:
+
+date:Mon.2013.09.16
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - task 'migrate_last_msg_id' will update last_message
+  - add task 'rebuild_friend_recommend_messages'
+  - refactory method 'destroy_all_friend_recommend_messages_dirty'
+
+进度:
+
+- gxserver
+  - task 'migrate_last_msg_id' will update last_message
+  - add task 'rebuild_friend_recommend_messages'
+  - refactory method 'destroy_all_friend_recommend_messages_dirty'
+
+备注:
+
+疑问:
+
+date:Tue.2013.09.17
+
+---------------------------------
+
+目标:
+
+- gxserver
+  - add task 'destroy_all_message_session_dirty'
+- guanxi_cms
+  - gx_push_server, some view logic for gx_puser_server
+
+进度:
+
+- gxserver
+  - add task 'destroy_all_message_session_dirty'
+- guanxi_cms
+  - gx_push_server, some view logic for gx_puser_server
+
+备注:
+
+疑问:
+
+date:Wed.2013.09.18
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - refactory 'app_version_update' and use 'push' library
+  - gx_push_server, begin to implement detail logic for gx_push_task's push method
+
+进度:
+
+- guanxi_cms
+  - refactory 'app_version_update' and use 'push' library
+  - gx_push_server, begin to implement detail logic for gx_push_task's push method
+
+备注:
+
+疑问:
+
+date:Sun.2013.09.22
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - gx_push_server, implement 'push_instant_message', 'push_sms_phonebook', 'push_sms_gx_user'
+
+进度:
+
+- guanxi_cms
+  - gx_push_server, implement 'push_instant_message', 'push_sms_phonebook', 'push_sms_gx_user'
+
+备注:
+
+疑问:
+
+date:Mon.2013.09.23
+
+---------------------------------
+
+目标:
+
+- make a slide to introduct user_message model on gxserver
+- gxserver
+  - fix error on 'MessageController#sessionoldmsg'
+  - for android userbefore update userinfo will handle with 'remove_incorrent_careerid'
+  - improve method 'UserinfoHandler#remove_incorrent_careerid'
+
+进度:
+
+- make a slide to introduct user_message model on gxserver
+- gxserver
+  - fix error on 'MessageController#sessionoldmsg'
+  - for android userbefore update userinfo will handle with 'remove_incorrent_careerid'
+  - improve method 'UserinfoHandler#remove_incorrent_careerid'
+
+备注:
+
+疑问:
+
+date:Tue.2013.09.24
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - deploy gx_push_server and make it work
+  - "GxPushTask#update_push_content_image" will auto set text as nil if img uploaded sucessfully
+
+进度:
+
+- guanxi_cms
+  - deploy gx_push_server and make it work
+  - "GxPushTask#update_push_content_image" will auto set text as nil if img uploaded sucessfully
+
+备注:
+
+疑问:
+
+date:Wed.2013.09.25
+
+---------------------------------
+
+目标:
+
+- guanxime_www
+  - modify 'font-family'
+- guanxi_cms
+  - user wake task
+- sms push stats log(how to)
+
+进度:
+
+- guanxime_www
+  - modify 'font-family'
+- guanxi_cms
+  - user wake task
+
+
+备注:
+
+疑问:
+
+date:Thu.2013.09.26
+
+---------------------------------
+
+目标:
+
+- sms push stats log
+
+进度:
+
+- sms push stats log
+
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.09.27
+
+---------------------------------
+
+目标:
+
+- sms push stats log
+  - user's sms inbox
+    - sms have an link(which contain param) connect to m.guanxi.me
+  - m.guanxi.me
+    - m.guanxi.me fetch `tongji.js` file, and exec it
+    - this js will store params 'gxtj_id' and 'session_name', listen all client click event, and launch an reqest to gxservice
   - gxservice
-    - foursquare venue explore should have image display on gxservice
-
-进度:
-
+    - provide `tongji.js`
+    - when have request on `monitor`, first bundle an stats instance base on 'gxtj_id' and 'stats_class_name' eg 'gx_push_task' which should have `{gxtj_id: "#{push_task.id}", stats_class_name: push_task.class.name}`<br />
+      then if other params present create an 'SourceTracker' base on 'session_name' ("#{Time.now.to_i.to_s}#{rand(999999)}")
   - guanxi_cms
-    - check why so slow on database
-    - speed assets precompile by 'turbo-sprockets-rails3'
-    - add `cache_value` to `utility`
-    - cache entries_count to improve the review paginate
+    - define model 'SourceTracker'
+    - for each sms push task, should merge a link which link to m.guanxi.me and have params {gxtj_id: "#{push_task.id}", stats_class_name: push_task.class.name}
+
+进度:
+
+- sms push stats log
+  - user's sms inbox
+    - sms have an link(which contain param) connect to m.guanxi.me
+  - m.guanxi.me
+    - m.guanxi.me fetch `tongji.js` file, and exec it
+    - this js will store params 'gxtj_id' and 'session_name', listen all client click event, and launch an reqest to gxservice
   - gxservice
-    - foursquare venue explore should have image display on gxservice
+    - provide `tongji.js`
+    - when have request on `monitor`, first bundle an stats instance base on 'gxtj_id' and 'stats_class_name' eg 'gx_push_task' which should have `{gxtj_id: "#{push_task.id}", stats_class_name: push_task.class.name}`<br />
+      then if other params present create an 'SourceTracker' base on 'session_name' ("#{Time.now.to_i.to_s}#{rand(999999)}")
+  - guanxi_cms
+    - define model 'SourceTracker'
+    - for each sms push task, should merge a link which link to m.guanxi.me and have params {gxtj_id: "#{push_task.id}", stats_class_name: push_task.class.name}
 
 备注:
 
 疑问:
 
-date:Mon.2013.06.03
+date:Sat.2013.09.28
 
 ---------------------------------
 
 目标:
 
 - guanxi_cms
-  - should reject duplicate at same time (freez time) ??
-  - can review once more
-- gxservice
-  - api测试用例 (get started)
+  - user wake task
+- deploy model sms push stats log
 
 进度:
 
 - guanxi_cms
-  - should reject duplicate review during some time (freez time 10 minutes)
-  - can review special user more than once
-- gxservice
-  - api测试用例 (get started)
+  - user wake task
+- deploy model sms push stats log
 
 备注:
 
 疑问:
 
-date:Tue.2013.06.04
+date:Sun.2013.09.29
 
 ---------------------------------
 
 目标:
 
-- gxservice
-  - api测试用例 (processed 1/3)
 - guanxi_cms
-  - rails should avoid cache instance, refactory the `Userable#cms_roles`
+  - add script to monitor sidekiq
+- gxserver
+  - fix dup commend user
+  - deprecated method 'GxUserSession#get_user_session' use <br />
+    'GxUserSession#find_or_create_with_userids' or  'GxUserSession#find_with_userids' when you need
 
 进度:
 
-- gxservice
-  - api测试用例 (processed 1/3)
 - guanxi_cms
-  - rails should avoid cache instance, refactory the `Userable#cms_roles`
+  - add script to monitor sidekiq
+- gxserver
+  - fix dup commend user
+  - deprecated method 'GxUserSession#get_user_session' use <br />
+    'GxUserSession#find_or_create_with_userids' or  'GxUserSession#find_with_userids' when you need
 
 备注:
 
 疑问:
 
-date:Wed.2013.06.05
+date:Wed.2013.10.08
 
 ---------------------------------
 
 目标:
 
-- gxservice
-  - api测试用例  (should finished)
-  - can import foursquare categories `csv` file and export as `yml`
+- gxserver
+  - fix bug on model gxfriend
 - guanxi_cms
-  - monitor with newrelic
+  - define view logic to display group message
 
 进度:
 
-- gxservice
-  - api测试用例 (almost finished)
-  - can import foursquare categories `csv` file and export as `yml`
+- gxserver
+  - fix bug on model gxfriend
 - guanxi_cms
-  - monitor with newrelic
+  - define view logic to display group message
+
 
 备注:
 
 疑问:
 
-date:Thu.2013.06.06
+date:Wed.2013.10.09
 
 ---------------------------------
 
 目标:
 
-- gxservice
-  - api测试用例 (almost finished)
+- init application guanxi_wap
+- deprecated mongodb '--auth' instead with network security strategies
+  - http://docs.mongodb.org/manual/security/
+  - http://stackoverflow.com/questions/8286778/mongodb-security
 - guanxi_cms
-  - app 版本发布, 升级说明
-- auto deployment
-  - vagrant
-  - play with chef-solo
+  - fix bugs and improve
 
 进度:
 
-- gxservice
-  - api测试用例 (almost finished)
-  - refactory checkversion
+- init application guanxi_wap
+- deprecated mongodb '--auth' instead with network security strategies
+  - http://docs.mongodb.org/manual/security/
+  - http://stackoverflow.com/questions/8286778/mongodb-security
 - guanxi_cms
-  - app 版本发布, 升级说明
-  - add gx_app model to manage app's version
-- auto deployment
-  - vagrant
-  - play with chef-solo
+  - fix bugs and improve
+
+备注:
+
+疑问:
+
+date:Thu.2013.10.10
+
+---------------------------------
+
+目标:
+
+- deprecated mongodb '--auth' instead with network security strategies make it work
+  - https://gist.github.com/jhjguxin/6919001
+- guanxime_www
+  - adjuest style sheet
+- guanxime_mobile
+  - add cnzz track
+- play with [stackedit](http://benweet.github.io/stackedit/)
+
+进度:
+
+- deprecated mongodb '--auth' instead with network security strategies make it work
+  - https://gist.github.com/jhjguxin/6919001
+- guanxime_www
+  - adjuest style sheet
+- guanxime_mobile
+  - add cnzz track
+- play with [stackedit](http://benweet.github.io/stackedit/)
 
 备注:又是周五
 
 疑问:
 
-date:Fri.2013.06.07
+date:Fri.2013.10.11
 
 ---------------------------------
 
 目标:
 
-- gxservice
-  - refactory checkversion, and test should sucess
 - guanxi_cms
-  - app 版本发布, 升级说明
-  - android socket push
-- auto deployment
-  - vagrant (just a bit started)
-  - play with chef-solo (just a bit started)
+  - fix and improve
 
 进度:
 
-- gxservice
-  - refactory checkversion, and test should sucess
 - guanxi_cms
-  - app 版本发布, 升级说明
-  - android socket push
-- auto deployment
-  - vagrant (hung up)
-  - play with chef-solo (hung up)
+  - fix and improve
 
 备注:
 
 疑问:
 
-date:Sat.2013.06.08
+date:Sat.2013.10.12
 
 ---------------------------------
 
 目标:
 
-- gxservice
-  - change the arg define of 'UserCommendable#handle_commend_users'
-  - guanxi_cms send socket_push to push sever
-- guanxi_cms
-  - android socket push
-- auto deployment
-  - vagrant (hung up)
-  - play with chef-solo (hung up)
-- linux
-  - play with gentoo
-    - `links` `links2`
-    - http://www.gentoo.org/doc/zh_cn/handbook/handbook-x86.xml?part=1&chap=4
-    - http://www.techotopia.com/index.php/Adding_a_New_Disk_Drive_to_a_CentOS_6_System
-    - http://help.aliyun.com/origin?spm=0.0.0.29.RM8Om5&helpId=271
-
+- get started with java base on push_server
+- test and try improve how we use mongodb
 
 进度:
 
-- gxservice
-  - change the arg define of 'UserCommendable#handle_commend_users'
-  - guanxi_cms send socket_push to push sever
-- guanxi_cms
-  - android socket push
-- auto deployment
-  - vagrant (hung up)
-  - play with chef-solo (hung up)
-- linux
-  - play with gentoo
-    - `links` `links2`
-    - http://www.gentoo.org/doc/zh_cn/handbook/handbook-x86.xml?part=1&chap=4
-    - http://www.techotopia.com/index.php/Adding_a_New_Disk_Drive_to_a_CentOS_6_System
-    - http://help.aliyun.com/origin?spm=0.0.0.29.RM8Om5&helpId=271
+- get started with java base on push_server
+- test and try improve how we use mongodb
 
 备注:
 
 疑问:
 
-date:Sun.2013.06.09
+date:Mon.2013.10.14
 
 ---------------------------------
 
 目标:
 
-- guanxi_cms
-  - some new feature and improve on review model
-    - can search review item by review_type, review_user etc.
+- moped 2 read preferences
 
 进度:
 
-- guanxi_cms
-  - some new feature and small adjust on review model
-    - can search review item by review_type, review_user etc.
-  - check is app_version_push work fine
+- moped 2 read preferences
 
 备注:
 
 疑问:
 
-date:Thu.2013.06.13
+date:Tue.2013.10.15
 
 ---------------------------------
 
 目标:
 
 - guanxi_cms
-  - add changelog to gx_apps
-  - check is app_version_push work fine
-  - batch push on guanxi_cms
+  - migrate to another server
+- gxserver
+  - release new version of guanxi app, step by step
+  - use counter_cache to count unreceiverd message
+- find query or other cause ours mongo db slow
 
-- gxservice
-  - checkversion use data from guanxi_cms only
-
-- mongoid_sequence2
-  - #1 Add `next_sequence` which allows to have any per model sequence, without need to create given model's objects. ([dawid-sklodowski](https://github.com/dawid-sklodowski))
-  - version update to '0.2.5'
 进度:
 
 - guanxi_cms
-  - add changelog to gx_apps
-  - check is app_version_push work fine
-  - batch push on guanxi_cms
+  - migrate to another server
+- gxserver
+  - release new version of guanxi app, step by step
+  - use counter_cache to count unreceiverd message
+- find query or other cause ours mongo db slow
 
-- gxservice
-  - checkversion change_log, release_title will use data from guanxi_cms now
+备注:
+
+疑问:
+
+date:Wed.2013.10.16
+
+---------------------------------
+
+目标:
+
+- find query or other cause ours mongo db slow
+- get started with java base on push_server
+- guanxi_manage
+  - migrate oper_logs
+
+进度:
+
+- find query or other cause ours mongo db slow
+- get started with java base on push_server
+- guanxi_manage
+  - migrate oper_logs
+
+备注:
+
+疑问:
+
+date:Thu.2013.10.17
+
+---------------------------------
+
+目标:
+
+- guanxi_cms
+  - bootstrap update to v3
+  - push_task can limit push count and phone number area
+- guanxi_manage
+  - migrate oper_logs
+
+进度:
+
+- guanxi_cms
+  - bootstrap update to v3
+  - push_task can limit push count and phone number area
+- guanxi_manage
+  - migrate oper_logs
 
 备注:又是周五
 
 疑问:
 
-date:Fri.2013.06.14
+date:Fri.2013.10.18
 
 ---------------------------------
 
 目标:
 
 - guanxi_cms
-  - check is app_version_push work fine
-  - batch push on guanxi_cms
-  - fix the bug on review mod
+  - bootstrap update to v3, fix some error
+  - add handle logic to feedback
+- guanxi_manage
+  - cover mysql engine from myisam to innodb
+- overcover production database to dev and stage
+- upgrade to ubuntu 13.10
 
 进度:
 
 - guanxi_cms
-  - check is app_version_push work fine
-  - batch push on guanxi_cms
-  - fix the bug on review mod
+  - bootstrap update to v3, fix some error
+  - add handle logic to feedback
+- guanxi_manage
+  - cover mysql engine from myisam to innodb
+- overcover production database to dev and stage
+- upgrade to ubuntu 13.10
 
 备注:
 
 疑问:
 
-date:Mon.2013.06.17
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - use ligthbox display pic
-  - add use collection limit to review model
-
-- gxservice
-  - will auto weaken the value of active_score base on logintime
-  - check is active_score work fine
-
-进度:
-
-备注:
-
-- guanxi_cms
-  - use ligthbox display pic
-  - add use collection limit to review model
-
-疑问:
-
-date:Tue.2013.06.18
+date:Mon.2013.10.21
 
 ---------------------------------
 
 目标:
 
 - guanxi_cms
-  - fix error on app_version_push
-- gxservice
-  - will auto weaken the value of active_score base on logintime
-  - check is active_score work fine
+  - im message to feedback
+- guanxi_manage
+  - mysql-engines-myisam-vs-innodb
+- deploy new mongodb server environment
 
 进度:
 
 - guanxi_cms
-  - fix error on app_version_push
-- gxservice
-  - will auto weaken the value of active_score base on logintime
-  - check is active_score work fine
+  - im message to feedback
+- guanxi_manage
+  - mysql-engines-myisam-vs-innodb
+- deploy new mongodb server environment
 
 备注:
 
 疑问:
 
-date:Wed.2013.06.19
-
----------------------------------
-
-目标:
-
-- gxservice
-  - check is active_score work fine
-  - 智能推荐尝试推荐 新用户和推荐用户(美女帅哥);智能推荐排序优先排列 'commend_index'
-- deploy on clear environment for gxserver
-
-
-进度:
-
-- gxservice
-  - check is active_score work fine
-  - 智能推荐尝试推荐 新用户和推荐用户(美女帅哥);智能推荐排序优先排列 'commend_index'
-- deploy on clear environment for gxserver
-
-
-备注:
-
-疑问:
-
-date:Thu.2013.06.20
-
----------------------------------
-
-目标:
-
-- gxservice
-  - 智能推荐尝试推荐 新用户和推荐用户(美女帅哥);智能推荐排序优先排列
-  - try to use [mongodb's 'time to live' or 'TTL'](http://docs.mongodb.org/manual/tutorial/expire-data/) instead of remove by hand or schedule tast
-- deploy on clear environment for gxserver
-
-进度:
-
-- gxservice
-  - 智能推荐尝试推荐 新用户和推荐用户(美女帅哥);智能推荐排序优先排列
-  - try to use [mongodb's 'time to live' or 'TTL'](http://docs.mongodb.org/manual/tutorial/expire-data/) instead of remove by hand or schedule tast
-- deploy on clear environment for gxserver
-
-备注:又是周五
-
-疑问:
-
-date:Fri.2013.06.21
-
----------------------------------
-
-目标:
-
-- deploy on clear environment for gxserver
-
-进度:
-
-- deploy on clear environment for gxserver
-
-备注:
-
-疑问:
-
-date:Mon.2013.06.24
-
----------------------------------
-
-目标:
-
-- gxservice
-  - run with unicorn
-- mongodb server
-  - monitor with MongoDB Monitoring Service([MMS](https://mms.10gen.com/help/monitoring/tutorial/))
-- deploy resque service for test gxservice
-- guanxi_cms
-  - add query page for app crash_log
-
-进度:
-
-- gxservice
-  - run with unicorn
-- mongodb server
-  - monitor with MongoDB Monitoring Service([MMS](https://mms.10gen.com/help/monitoring/tutorial/))
-- deploy resque service for test gxservice
-- guanxi_cms
-  - add query page for app crash_log
-
-备注:
-
-疑问:
-
-date:Tue.2013.06.25
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - small change on crash_log
-- gxservice
-  - debug on test environment
-
-进度:
-
-- guanxi_cms
-  - small change on crash_log
-- gxservice
-  - debug on test environment
-
-
-备注:
-
-疑问:
-
-date:Wed.2013.06.26
-
----------------------------------
-
-目标:
-
-- gxservice
-  - 通讯录好友功能(implement the new define of addressbook)
-
-进度:
-
-- gxservice
-  - 通讯录好友功能(implement the new define of addressbook
-
-备注:
-
-疑问:
-
-date:Thu.2013.06.27
-
----------------------------------
-
-目标:
-
-- gxservice
-  - 通讯录好友功能(implement the new define of addressbook, and migrate phonebook to addressbook, reference to https://gist.github.com/jhjguxin/5875444)
-
-进度:
-
-- gxservice
-  - 通讯录好友功能(implement the new define of addressbook, and migrate phonebook to addressbook, reference to https://gist.github.com/jhjguxin/5875444)
-
-备注:又是周五
-
-疑问:
-
-date:Fri.2013.06.28
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - deploy new environment on aliyun
-  - deploy guanxi_cms on new server
-
-进度:
-
-- guanxi_cms
-  - deploy new environment on aliyun
-  - deploy guanxi_cms on new server
-
-备注:
-
-疑问:
-
-date:Mon.2013.07.01
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - deploy new environment on aliyun
-  - deploy guanxi_cms on new server
-- gxserver
-  - deploy new environment on aliyun
-  - run background on new server
-  - deploy gxserver on new server
-
-进度:
-
-- guanxi_cms
-  - deploy new environment on aliyun
-  - deploy guanxi_cms on new server
-- gxserver
-  - deploy new environment on aliyun
-  - run background on new server
-  - deploy gxserver on new server
-
-
-备注:
-
-疑问:
-
-date:Tue.2013.07.02
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - fix erron on 'config.ru'
-  - app_version_pushes support multi versions
-  - app_version support 'user_collection_type'
-- gxservice
-  - rename "GxUserContacts" as "GxUserContact"
-  - clear invalid email format on 'GxUserContact#ContactEmail' feild
-
-进度:
-
-- guanxi_cms
-  - fix erron on 'config.ru'
-  - app_version_pushes support multi versions
-  - app_version support 'user_collection_type'
-- gxservice
-  - rename "GxUserContacts" as "GxUserContact"
-  - clear invalid email format on 'GxUserContact#ContactEmail' feild
-
-
-备注:
-
-疑问:
-
-date:Wed.2013.07.03
-
----------------------------------
-
-目标:
-
-- gxservice
-  - rename "GxUserContacts" as "GxUserContact"
-  - clear invalid email format on 'GxUserContact#ContactEmail' feild
-  - 恢复处理Email
-  - 处理现有log形式保存的Email
-  - test is gxserver work well on aliyun
-
-进度:
-
-- gxservice
-  - rename "GxUserContacts" as "GxUserContact"
-  - clear invalid email format on 'GxUserContact#ContactEmail' feild
-  - 恢复处理Email
-  - 处理现有log形式保存的Email
-  - test is gxserver work well on aliyun
-
-备注:
-
-疑问:
-
-date:Thu.2013.07.04
-
----------------------------------
-
-目标:
-
-- gxservice
-  - test is gxserver work well on aliyun
-  - 负载均衡
-- auto deployment
-  - vagrant
-  - play with chef-solo
-
-进度:
-
-- gxservice
-  - test is gxserver work well on aliyun
-  - 负载均衡
-- auto deployment
-  - vagrant(but still have some trouble on 'Setting Up a Multi-VM Environment in Vagrant')
-  - play with chef-solo
-
-备注:又是周五
-
-疑问:
-
-date:Fri.2013.07.05
-
----------------------------------
-
-目标:
-
-- gxservice
-  - deploy gxserver with capistrano
-  - test is gxserver work well on aliyun
-  - 负载均衡
-- migrate gxserver from grandcloud to aliyun
-- write an [deamon script for goagent](https://gist.github.com/jhjguxin/5948822)
-
-进度:
-
-- gxservice
-  - deploy gxserver with capistrano
-  - test is gxserver work well on aliyun
-  - 负载均衡
-- migrate gxserver from grandcloud to aliyun
-- write an [deamon script for goagent](https://gist.github.com/jhjguxin/5948822)
-
-备注:
-
-疑问:
-
-date:Mon.2013.07.08
-
----------------------------------
-
-目标:
-
-- gxservice
-  - 负载均衡
-
-进度:
-
-- gxservice
-  - 负载均衡
-
-备注:
-
-疑问:
-
-date:Tue.2013.07.09
-
----------------------------------
-
-目标:
-
-- auto deployment
-  - vagrant
-  - play with chef-solo
-- change mongodb server to LAN ip
-
-进度:
-
-- auto deployment
-  - vagrant
-  - play with chef-solo
-- change mongodb server to LAN ip
-
-备注:
-
-疑问:
-
-date:Wed.2013.07.10
-
----------------------------------
-
-
-目标:
-
-- auto deployment
-  - vagrant
-  - play with chef-solo
-- change mongodb server to LAN ip
-
-进度:
-
-- auto deployment
-  - vagrant
-  - play with chef-solo
-- change mongodb server to LAN ip
-
-备注:
-
-疑问:
-
-date:Wed.2013.07.11
-
----------------------------------
-
-目标:
-
-- gxserver
-  - add task 'phonebook_commend_push'
-  - and try speedy by 'GC'
-
-进度:
-
-- gxserver
-  - add task 'phonebook_commend_push'
-  - and try speedy by 'GC'
-
-备注:
-
-疑问:
-
-date:Thu.2013.07.12
-
----------------------------------
-
-目标:
-
-- gxserver
-  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
-  - and try speedy by 'GC'
-  - reduce cursors count on mongodb2
-
-进度:
-
-- gxserver
-  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
-  - and try speedy by 'GC'
-  - reduce cursors count on mongodb2
-
-备注:
-
-疑问:
-
-date:Mon.2013.07.15
-
----------------------------------
-
-目标:
-
-- gxserver
-  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
-  - reduce I/O utilization on mongodb2
-  - define model 'user_data_statistic' to collect user relation data
-
-进度:
-
-- gxserver
-  - find what reason cause db server down(智能推荐, 更新活跃度, 或者其他...)
-  - reduce I/O utilization on mongodb2
-  - define model 'user_data_statistic' to collect user relation data
-
-备注:
-
-疑问:
-
-date:Tue.2013.07.16
-
----------------------------------
-
-目标:
-
-- gxserver
-  - why slow on 'criteria.desc(:score).only(*include_fields).where({relation_user_id: userid}).skip(skip_count).limit(page_size).entries'. Why ???????
-  - reduce I/O utilization on mongodb2
-  - define model 'user_data_statistic' to collect user relation data
-
-进度:
-
-- gxserver
-  - why slow on 'criteria.desc(:score).only(*include_fields).where({relation_user_id: userid}).skip(skip_count).limit(page_size).entries'. Why ???????
-  - reduce I/O utilization on mongodb2
-  - define model 'user_data_statistic' to collect user relation data
-
-备注:
-
-疑问:
-
-date:Wed.2013.07.17
-
----------------------------------
-
-目标:
-
-- gxserver
-  - gxabout, and use data from gx_setting
-  - on 'commend_user' 'quickly_commend_users' will consider user gender
-- guanxi_cms
-  - define gx_setting
-
-进度:
-
-- gxserver
-  - gxabout, and use data from gx_setting
-  - on 'commend_user' 'quickly_commend_users' will consider user gender
-- guanxi_cms
-  - define gx_setting
-
-备注:
-
-疑问:
-
-date:Thu.2013.07.18
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - build the page for gxserver log query
-- deploy an new centos server for gxserver stage and dev environment
-
-进度:
-
-- guanxi_cms
-  - build the page for gxserver log query
-- deploy an new centos server for gxserver stage and dev environment
-
-备注:又是周五
-
-疑问:
-
-date:Fri.2013.07.19
-
----------------------------------
-
-目标:
-
-- check why db high disk io, and low memery
-- gxservice
-  - check all db index exists
-
-进度:
-
-- check why db high disk io, and low memery
-- gxservice
-  - check all db index exists
-
-备注:
-
-疑问:
-
-date:Mon.2013.07.22
-
----------------------------------
-
-目标:
-
-- gxservice
-  - hook 'user_data_statistic' with someone who need it
-- [Low memory consumption with MongoDB](https://gist.github.com/jhjguxin/6060427)
-
-进度:
-
-- gxservice
-  - hook 'user_data_statistic' with someone who need it
-- [Low memory consumption with MongoDB](https://gist.github.com/jhjguxin/6060427)
-
-备注:
-
-疑问:
-
-date:Tue.2013.07.23
-
----------------------------------
-
-目标:
-
-- gxservice
-  - hook 'user_data_statistic' with someone who need it
-
-进度:
-
-- gxservice
-  - hook 'user_data_statistic' with someone who need it
-
-备注:
-
-疑问:
-
-date:Wed.2013.07.24
-
----------------------------------
-
-目标:
-
-can acess an special db server within mongodb Replica Sets ?
-
-进度:
-
-can acess an special db server within mongodb Replica Sets ?
-
-备注:
-
-疑问:
-
-date:Thu.2013.07.25
-
----------------------------------
-
-目标:
-
-- guanxi_cms
-  - 提醒用户更新头像, after user review by cms system
-  - 生日祝福
-
-进度:
-
-- guanxi_cms
-  - 提醒用户更新头像, after user review by cms system
-  - 生日祝福
-
-备注:又是周五
-
-疑问:
-
-date:Fri.2013.07.26
-
----------------------------------
-
-目标:
-
-- release an new version for gxservice
-- some index for gx_radarnotifications
-- mongoid consistency option
-
-进度:
-
-- release an new version for gxservice
-- some index for gx_radarnotifications
-- mongoid consistency option
-
-备注:
-
-疑问:
-
-date:Mon.2013.07.29
-
----------------------------------
-
-目标:
-
-- new dev environment for ampedservice
-- project-manage
-  - some doc for sails
-
-进度:
-
-- new dev environment for ampedservice
-- project-manage
-  - some doc for sails
-
-备注:
-
-疑问:
-
-date:Tue.2013.07.30
+date:Tue.2013.10.22
 
 ---------------------------------
