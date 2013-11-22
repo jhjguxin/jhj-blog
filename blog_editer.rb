@@ -71,5 +71,6 @@ if __FILE__==$0
 
   #`gedit #{file.path}`
   # system "gedit #{file.path}"
+  # sudo apt-get install libgnome2-bin
   system "gnome-open #{file.path}"
 end

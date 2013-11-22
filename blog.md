@@ -310,3 +310,25 @@ date:Wed.2013.11.20
 date:Thu.2013.11.21
 
 ---------------------------------
+
+目标:
+
+- guanxi_cms
+  - define model guanxi package
+  - migrate to other server
+- reconfig personal develope env
+
+进度:
+
+- guanxi_cms
+  - define model guanxi package
+  - migrate to other server
+- reconfig personal develope env
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2013.11.22
+
+---------------------------------
