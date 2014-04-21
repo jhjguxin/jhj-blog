@@ -13,10 +13,10 @@ case "$var" in
   "update to git" )
     echo "update to git alreadly do in 'blogerditer.py'";;
 
-  "update to local blog website and Ubuntu one folders" )
-    echo "update to Ubuntu one folders ..."
+  "update to local blog website and cloud folders" )
+    echo "update to cloud folders ..."
     #cp ~/Desktop/jhj-blog/blog ~/Ubuntu\ One/jhj-blog
-    cp ~/Desktop/jhj-blog/blog.* ~/Ubuntu\ One/jhj-blog
+    cp ~/Desktop/jhj-blog/blog.* ~/Dropbox/jhj-blog
     echo "update to local blog website"
     #sudo cp ~/Desktop/jhj-blog/blog /var/www/blogserver/templates/workblog;;
     echo "update to local blog website is skiped ...";;
