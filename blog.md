@@ -1260,17 +1260,854 @@ date:Mon.2014.08.25
 目标:
 
 - vcooline_ikcrm
-  - adjust and bug fixed
+  - implement visible scope loggings for user
+  - optimization Ownershipish#own_for performance
+  - update entity fields within show view
+  - ensure announcement permit
 
 进度:
 
 - vcooline_ikcrm
-  - adjust and bug fixed
+  - implement visible scope loggings for user
+  - optimization Ownershipish#own_for performance
+  - update entity fields within show view
+  - ensure announcement permit
 
 备注:
 
 疑问:
 
 date:Tue.2014.08.26
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field stat logic
+
+进度:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field stat logic
+
+备注:
+
+疑问:
+
+date:Wed.2014.08.27
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field(performance_goal, contract_received_payment, sale_funnel, sale_range)
+
+进度:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field(performance_goal, contract_received_payment, sale_funnel, sale_range)
+
+备注:
+
+疑问:
+
+date:Thu.2014.08.28
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field(performance_goal, contract_received_payment, sale_funnel, sale_range)
+  - bug fixed
+
+进度:
+
+- vcooline_ikcrm
+  - implement dashboard#index chart field(performance_goal, contract_received_payment, sale_funnel, sale_range)
+  - bug fixed
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.08.29
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement faye push demo
+- ikcrm_push
+  - init
+
+进度:
+
+- vcooline_ikcrm
+  - implement faye push demo
+- ikcrm_push
+  - init
+
+备注:
+
+疑问:
+
+date:Mon.2014.09.01
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - define notifications witn sti db structure
+  - implement notifications view
+
+进度:
+
+- vcooline_ikcrm
+  - define notifications witn sti db structure
+  - implement notifications view
+
+备注:
+
+疑问:
+
+date:Tue.2014.09.02
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement entities announcement schedule_report notification and push them
+- ikcrm_push
+  - support push ability for ikcrm
+
+进度:
+
+- vcooline_ikcrm
+  - implement entities announcement schedule_report notification and push them
+- ikcrm_push
+  - support push ability for ikcrm
+
+备注:
+
+疑问:
+
+date:Wed.2014.09.03
+
+---------------------------------
+
+目标:
+
+进度:
+
+- vcooline_ikcrm
+  - refactory task/schedule
+- ikcrm_push
+  - implement app push library
+
+备注:
+
+- vcooline_ikcrm
+  - refactory task/schedule
+- ikcrm_push
+  - implement app push library
+
+疑问:
+
+date:Thu.2014.09.04
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - ensure notification content and improve those
+  - implement newer wizard
+- ikcrm_push
+  - deploy to production
+
+进度:
+
+- vcooline_ikcrm
+  - ensure notification content and improve those
+  - implement newer wizard
+- ikcrm_push
+  - deploy to production
+
+备注:
+
+疑问:
+
+date:Tue.2014.09.09
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - fix datetime_picker invalid format
+  - store crm_push_app within Thread.current
+  - remove gem simple_captcha2
+- ikcrm_notifier
+  - implement app_push grocer igetui
+
+进度:
+
+- vcooline_ikcrm
+  - fix datetime_picker invalid format
+  - store crm_push_app within Thread.current
+  - remove gem simple_captcha2
+- ikcrm_notifier
+  - implement app_push grocer igetui
+
+备注:
+
+疑问:
+
+date:Thu.2014.09.10
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - ajust from mail list
+  - fix task default_callback not work
+  - ensure entity date column
+  - implement task '今天' quick_search
+  - implement special return to turn modal form
+  - add delay to refresh dashboards#tasks view
+- ikcrm_notifier
+  - run app_push grocer igetui with rabbitmq and monitor with god
+进度:
+
+- vcooline_ikcrm
+  - ajust from mail list
+  - fix task default_callback not work
+  - ensure entity date column
+  - implement task '今天' quick_search
+  - implement special return to turn modal form
+  - add delay to refresh dashboards#tasks view
+- ikcrm_notifier
+  - run app_push grocer igetui with rabbitmq and monitor with god
+
+备注:
+
+疑问:
+
+date:Thu.2014.09.11
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - ensure knowledge_catalog owner scope
+  - sales show view 签单金额 now should 赢单的商机金额
+  - implement schedule_report show view
+
+
+进度:
+
+- vcooline_ikcrm
+  - ensure knowledge_catalog owner scope
+  - sales show view 签单金额 now should 赢单的商机金额
+  - implement schedule_report show view
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.09.12
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement find_all_owner_for which should raise entity_not_accessed
+  - implement an frontend wrapp to access to asso entity
+  - schedule_report batch marking
+
+
+进度:
+
+- vcooline_ikcrm
+  - implement find_all_owner_for which should raise entity_not_accessed
+  - implement an frontend wrapp to access to asso entity
+  - schedule_report batch marking
+
+备注:
+
+疑问:
+
+date:Mon.2014.09.15
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - cleanup redmine
+
+进度:
+
+- vcooline_ikcrm
+  - cleanup redmine
+
+备注:
+
+疑问:
+
+date:Tue.2014.09.16
+
+---------------------------------
+
+目标:
+
+
+
+进度:
+
+- vcooline_ikcrm
+  - fix knowledge owner_to org not work to no org_owner
+  - implement calendar task status update
+  - fix ie browser could not reload page which cause by '_.bind(window.location.reload(), window.location);'
+
+备注:
+
+- vcooline_ikcrm
+  - fix knowledge owner_to org not work to no org_owner
+  - implement calendar task status update
+  - fix ie browser could not reload page which cause by '_.bind(window.location.reload(), window.location);'
+
+疑问:
+
+date:Wed.2014.09.17
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - try to fix rank expect_amount_sum incorrent
+  - bug fixed
+
+进度:
+
+- vcooline_ikcrm
+  - try to fix rank expect_amount_sum incorrent
+  - bug fixed
+
+备注:
+
+疑问:
+
+date:Thu.2014.09.18
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement schedule_report statistics
+
+进度:
+
+- vcooline_ikcrm
+  - implement schedule_report statistics
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.09.19
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - small adjust on customer status field_map
+  - adjust customer and contact
+    - remove tags from customer
+    - add status field_map to customer
+    - adjust customer and contact show view
+  - adjust lead#status
+  - adjust leads index quick_search
+  - adjust for first release
+
+进度:
+
+- vcooline_ikcrm
+  - small adjust on customer status field_map
+  - adjust customer and contact
+    - remove tags from customer
+    - add status field_map to customer
+    - adjust customer and contact show view
+  - adjust lead#status
+  - adjust leads index quick_search
+  - adjust for first release
+
+备注:
+
+疑问:
+
+date:Mon.2014.09.22
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - fix show table list query params blank
+  - implement user_visible
+  - adjust for first release
+
+进度:
+
+- vcooline_ikcrm
+  - fix show table list query params blank
+  - implement user_visible
+  - adjust for first release
+
+备注:
+
+疑问:
+
+date:Tue.2014.09.23
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement customer asso entities visible
+  - define tools social_share
+  - adjust for first release
+
+进度:
+
+- vcooline_ikcrm
+  - implement customer asso entities visible
+  - define tools social_share
+  - adjust for first release
+
+备注:
+
+疑问:
+
+date:Wed.2014.09.24
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement entity modal form success submit return_to url (resolve issue after update current_user could not visit this entitiy)
+  - adjust for first release
+
+进度:
+
+- vcooline_ikcrm
+  - implement entity modal form success submit return_to url (resolve issue after update current_user could not visit this entitiy)
+  - adjust for first release
+
+备注:
+
+疑问:
+
+date:Thu.2014.09.25
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - update development env domain to vkelai.com
+  - definition social_share
+
+进度:
+
+- vcooline_ikcrm
+  - update development env domain to vkelai.com
+  - definition social_share
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.09.26
+
+---------------------------------
+
+
+目标:
+
+- ikcrm
+  - collect ikcrm server architecture component
+  - monitor all ik service through god
+
+进度:
+
+- ikcrm
+  - collect ikcrm server architecture component
+  - monitor all ik service through god
+
+备注:
+
+疑问:
+
+date:Sun.2014.09.28
+
+---------------------------------
+
+目标:
+
+- ikcrm
+  - restore development and production env
+- restore ikcrm gitlab
+
+进度:
+
+- ikcrm
+  - restore development and production env
+- restore ikcrm gitlab
+
+备注:
+
+疑问:
+
+date:Mon.2014.09.29
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement social_shared view
+
+进度:
+
+- vcooline_ikcrm
+  - implement social_shared view
+
+备注:
+
+疑问:
+
+date:Tue.2014.09.30
+
+---------------------------------
+
+目标:
+
+- ikcrm_api
+  - use plugin ActiveRecordLogging to logger active_record
+  - custom request log content
+  - debug api request performance
+  - display sql_runtime within request log
+
+进度:
+
+- ikcrm_api
+  - use plugin ActiveRecordLogging to logger active_record
+  - custom request log content
+  - debug api request performance
+  - display sql_runtime within request log
+- vcooline_ikcrm
+  - adjust social_share
+
+备注:
+
+疑问:
+
+date:Wed.2014.10.08
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - fix sales_performance_stat opportunity owner_type no match with owner_id (was @user_ids)
+
+进度:
+
+- vcooline_ikcrm
+  - fix sales_performance_stat opportunity owner_type no match with owner_id (was @user_ids)
+
+
+备注:
+
+疑问:
+
+date:Thu.2014.10.09
+
+---------------------------------
+
+目标:
+
+- save ik test and gitlab server
+- ikcrm_api
+  - reduce default per_page value
+
+进度:
+
+- save ik test and gitlab server
+- ikcrm_api
+  - reduce default per_page value
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.10.10
+
+---------------------------------
+
+目标:
+
+- save ik test and find the virus
+
+进度:
+
+- save ik test and find the virus
+
+备注:
+
+- elasticsearch-rtf
+疑问:
+
+date:Sat.2014.10.11
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - implement app_pusher support push message to igetui
+- ikcrm_notifier
+  - debug and support push to igetui ios android user
+- ikcrm
+  - bug fixed and support app partner
+
+进度:
+
+- vcooline_ikcrm
+  - implement app_pusher support push message to igetui
+- ikcrm_notifier
+  - debug and support push to igetui ios android user
+- ikcrm
+  - bug fixed and support app partner
+
+备注:
+
+疑问:
+
+date:Mon.2014.10.13
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - refactory revisit_activities view
+  - merge to release branch
+
+进度:
+
+- vcooline_ikcrm
+  - refactory revisit_activities view
+  - merge to release branch
+
+备注:
+
+疑问:
+
+date:Tue.2014.10.14
+
+---------------------------------
+
+目标:
+
+- ikcrm
+  - adjust within production env
+  - improve deploy logic
+
+
+进度:
+
+- ikcrm
+  - adjust within production env
+  - improve deploy logic
+
+备注:
+
+疑问:
+
+date:Wed.2014.10.15
+
+---------------------------------
+
+目标:
+
+- ikcrm_api
+  - before update data to db try encoding to utf-8
+- vcooline_ikcrm
+  - improve field_map fetch logic
+
+进度:
+
+- ikcrm_api
+  - before update data to db try encoding to utf-8
+- vcooline_ikcrm
+  - improve field_map fetch logic
+
+备注:
+
+疑问:
+
+date:Thu.2014.10.16
+
+---------------------------------
+
+目标:
+
+- ikcrm_api
+  - improve (serilizer) list query through active_record includes query
+
+进度:
+
+- ikcrm_api
+  - improve (serilizer) list query through active_record includes query
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.10.17
+
+---------------------------------
+
+目标:
+
+- ikcrm_api
+  - support app release first version
+- vcooline_ikcrm
+  - bug fixed
+
+进度:
+
+- ikcrm_api
+  - support app release first version
+- vcooline_ikcrm
+  - bug fixed
+
+备注:
+
+疑问:
+
+date:Mon.2014.10.20
+
+---------------------------------
+
+目标:
+
+- ikcrm_api
+  - config newrelic monitor
+- vcooline_ikcrm
+  - after_initialize should compatible with not method defined
+  - resolved Empty array becomes nil in params
+  - bug fixed
+- ikcrm_cms
+  - implement faq crud
+
+进度:
+
+- ikcrm_api
+  - config newrelic monitor
+- vcooline_ikcrm
+  - after_initialize should compatible with not method defined
+  - resolved Empty array becomes nil in params
+  - bug fixed
+- ikcrm_cms
+  - implement faq crud
+
+备注:
+
+疑问:
+
+date:Tue.2014.10.21
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - fix store_base_sti_class broken with paranoia includes query
+- ikcrm
+  - implement app_version
+
+进度:
+
+- vcooline_ikcrm
+  - fix store_base_sti_class broken with paranoia includes query
+- ikcrm
+  - implement app_version
+
+备注:
+
+疑问:
+
+date:Thu.2014.10.23
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - resure notification body
+  - config elasticsearch ik plugins
+- ikcrm_api
+  - resolve vcooline wifi connection to ikcrm_api slow
+
+进度:
+
+- vcooline_ikcrm
+  - resure notification body
+  - config elasticsearch ik plugins
+- ikcrm_api
+  - resolve vcooline wifi connection to ikcrm_api slow
+
+备注:又是周五
+
+疑问:
+
+date:Fri.2014.10.24
+
+---------------------------------
+
+目标:
+
+- vcooline_ikcrm
+  - bug fixed
+- ubuntu upgrade to 14.10
+
+进度:
+
+- vcooline_ikcrm
+  - bug fixed
+- ubuntu upgrade to 14.10
+
+备注:
+
+疑问:
+
+date:Mon.2014.10.27
 
 ---------------------------------
